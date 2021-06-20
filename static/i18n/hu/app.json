@@ -1,0 +1,3160 @@
+{
+  "calendar": {
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "yesterday": "Yesterday"
+  },
+  "common": {
+    "labelYes": "Igen",
+    "labelNo": "Nem",
+    "never": "Soha",
+    "apply": "Alkalmaz",
+    "done": "Kész",
+    "confirm": "Megerősítés",
+    "cancel": "Mégsem",
+    "getSupport": "Támogatás kérése",
+    "delete": "Törlés",
+    "launch": "Indít",
+    "continue": "Folytatás",
+    "previous": "Previous",
+    "learnMore": "Tudj meg többet",
+    "help": "Segítség",
+    "skipThisStep": "Lépés kihagyása",
+    "needHelp": "Segítségre van szükséged?",
+    "areYouSure": "Biztos vagy benne?",
+    "selectAccount": "Válassz ki egy számlát",
+    "selectAccountNoOption": "Nincs megfelelő számla \"{{accountName}}\"",
+    "selectCurrency": "Válassz egy Kriptovalutát",
+    "selectCurrencyNoOption": "Nincsenek kriptovaluták {{currencyName}}",
+    "selectExchange": "Válassz egy váltót",
+    "selectExchangeNoOption": "Nincs egyező váltó {{exchangeName}}",
+    "selectExchangeNoOptionAtAll": "Váltó nem található",
+    "selectValidatorNoOption": "No validator matching \"{{accountName}}\"",
+    "selectNoResults": "No results found matching \"{{query}}\"",
+    "sortBy": "Rendezési szempont",
+    "save": "Mentés",
+    "lock": "Lezár",
+    "showMore": "Mutass többet",
+    "back": "Vissza",
+    "reset": "Visszaállítás",
+    "retry": "Újra",
+    "range": "Időszak",
+    "stop": "Állj",
+    "updateNow": "Frissítés most",
+    "close": "Bezár",
+    "eastern": "Keleti",
+    "western": "Nyugati",
+    "reverify": "Újra megerősít",
+    "verify": "Megerősít",
+    "copy": "Másolás",
+    "copied": "Másolva",
+    "addressCopied": "Cím másolva",
+    "addressCopiedSuspicious": "A másolt, és a vágólapon lévő cím nem egyezik.",
+    "experimentalFeature": "Kísérleti funkciók",
+    "dismiss": "Elvetés",
+    "information": "Információ",
+    "search": "Keresés...",
+    "searchWithoutEllipsis": "Search",
+    "manage": "Manage",
+    "lockScreen": {
+      "title": "Üdv újra",
+      "subTitle": null,
+      "description": "A folytatáshoz írd be a jelszavad",
+      "inputPlaceholder": "Írd be a jelszavad",
+      "lostPassword": "Elfelejtettem a jelszavam"
+    },
+    "sync": {
+      "syncing": "Szinkronizálás...",
+      "upToDate": "Szinkronizálva",
+      "outdated": "Szünetel",
+      "needsMigration": "Kattints a számlád frissítéséhez",
+      "error": "Szinkronizálási hiba",
+      "refresh": "Frissítés",
+      "ago": "Szinkronizálva {{time}}"
+    },
+    "exchange": "Exchange"
+  },
+  "devices": {
+    "nanoS": "Nano S",
+    "nanoX": "Nano X",
+    "blue": "Blue"
+  },
+  "operation": {
+    "type": {
+      "IN": "Fogadott",
+      "OUT": "Küldött",
+      "CREATE": "Készítve",
+      "REVEAL": "Feltárva",
+      "DELEGATE": "Delegated",
+      "REDELEGATE": "Redelegated",
+      "UNDELEGATE": "Undelegated",
+      "SUPPLY": "Deposited",
+      "REDEEM": "Withdrawn",
+      "APPROVE": "Approved",
+      "VOTE": "Szavazott",
+      "FREEZE": "Befagyasztott",
+      "UNFREEZE": "Kiolvasztott",
+      "REWARD": "Begyűjtött jutalom",
+      "FEES": "Fees",
+      "OPT_IN": "Opt in",
+      "OPT_OUT": "Opt out",
+      "CLOSE_ACCOUNT": "Close account"
+    }
+  },
+  "byteSize": {
+    "bytes": "{{size}} bájt",
+    "kbUnit": "{{size}} Kb",
+    "mbUnit": "{{size}} Mb"
+  },
+  "time": {
+    "minute": "Perc",
+    "minute_plural": "Perc",
+    "hour": "Óra",
+    "hour_plural": "Órák",
+    "range": {
+      "week": "1 Hét",
+      "month": "1 Hónap",
+      "year": "1 Év"
+    }
+  },
+  "fees": {
+    "custom": "Egyedi",
+    "fast": "Gyors",
+    "high": "Magas",
+    "low": "Alacsony",
+    "slow": "Lassú",
+    "standard": "Általános"
+  },
+  "sidebar": {
+    "menu": "Menü",
+    "stars": "Csillagozott számlák",
+    "accounts": "Számlák",
+    "manager": "Eszközkezelő",
+    "exchange": "Buy / Sell",
+    "swap": "Swap",
+    "lend": "Lend"
+  },
+  "stars": {
+    "placeholder": "Számlák melyeket csillaggal látsz el a <1><0>Számlák</0></1> oldalon innentől itt fognak megjelenni!",
+    "tooltip": "Számla csillagozása"
+  },
+  "bridge": {
+    "modalTitle": "Open Device Bridge",
+    "openHeader": "Expose your Device accounts through WebSocket",
+    "openDescription": "Opening a bridge exposes all of your accounts to third party applications.",
+    "openedHeader": "{{appName}} bridge opened",
+    "openedDescription": "You can now access your {{appName}} account on third party web application through WebSocket.",
+    "completeHeader": "Bridge session completed",
+    "completeDescription": "The websocket bridge is now closed.",
+    "openButton": "Open",
+    "disconnectButton": "Disconnect"
+  },
+  "swap": {
+    "title": "Swap",
+    "titleCrypto": "Swap {{currency}}",
+    "whatIsSwap": "What is Swap",
+    "tabs": {
+      "exchange": "Exchange",
+      "history": "History"
+    },
+    "history": {
+      "empty": {
+        "title": "Your previous swaps will appear here",
+        "description": "Either you have not made any swaps yet, or Ledger Live has been reset in the meantime."
+      }
+    },
+    "landing": {
+      "title": "Swap your assets",
+      "continue": "Continue",
+      "link": "More about Swap",
+      "sorry": "Service temporarily unavailable, or not available in your country"
+    },
+    "missingApp": {
+      "title": "Please install the Exchange app on your device",
+      "subtitle": "Go to manager and install Exchange app to swap assets.",
+      "cta": "Go to manager"
+    },
+    "outdatedApp": {
+      "title": "Please update the Exchange app on your device",
+      "subtitle": "Go to manager and update Exchange app to swap assets.",
+      "cta": "Go to manager"
+    },
+    "kyc": {
+      "title": "Welcome to Swap",
+      "subtitle": "Exchange crypto assets directly from your Ledger device. This service is not available in the US and a few other countries.",
+      "disclaimer": "By continuing, you accept that your location data will be shared with third party service providers in order for them to comply with their AML/KYC procedures."
+    },
+    "form": {
+      "from": {
+        "title": "From",
+        "account": "Account",
+        "amount": "Amount to send",
+        "currency": "Crypto asset",
+        "balance": "Balance: {{balance}}"
+      },
+      "to": {
+        "title": "To",
+        "account": "Account",
+        "amount": "Amount to receive",
+        "currency": "Crypto asset",
+        "addAccountCTA": "Add new account"
+      },
+      "exchange": "Exchange",
+      "addAccount": "Add Account",
+      "openManager": "Open Manager",
+      "helpCTA": "What is Swap?",
+      "bubble": "We use a fixed rate, this is the exact amount you will receive.",
+      "noAccounts": "You don't have {{currencyName}} accounts with balance",
+      "noApp": "{{currencyName}} app not installed.",
+      "outdatedApp": "{{currencyName}} app update available."
+    },
+    "modal": {
+      "title": "Swap",
+      "tos": "Terms & Conditions",
+      "steps": {
+        "summary": {
+          "title": "Summary",
+          "from": "From",
+          "to": "To",
+          "toExchange": "Amount to send",
+          "toReceive": "Amount to receive",
+          "provider": "Provider",
+          "terms": "Terms & Conditions",
+          "disclaimer": {
+            "header": "Details",
+            "description": "By clicking \"Confirm\", I acknowledge and accept that this service is exclusively governed by <0>{{provider}}</0>'s",
+            "acceptedDescription": "This service is exclusively governed by <0>{{provider}}</0>'s"
+          },
+          "details": {
+            "provider": "Provider",
+            "address": "Address"
+          }
+        },
+        "device": {
+          "title": "Device"
+        },
+        "finished": {
+          "title": "Pending",
+          "subtitle": "Pending operation",
+          "swap": "Your Swap ID:",
+          "seeDetails": "See details",
+          "disclaimer": "Please take note of your Swap ID number in case you’d need assistance from <0>{{provider}}</0> later.",
+          "description": "Your Swap operation has been sent to the network for confirmation. It may take up to an hour before you receive your swapped crypto assets."
+        }
+      }
+    },
+    "operationDetailsModal": {
+      "title": "Operation details",
+      "provider": "Provider",
+      "txid": "Swap ID",
+      "status": "Status",
+      "date": "Date",
+      "from": "From",
+      "to": "To",
+      "initialAmount": "Amount sent",
+      "creditedAmount": "Amount to receive"
+    }
+  },
+  "fullNode": {
+    "status": "Status",
+    "connect": "Connect",
+    "disconnect": "Disconnect",
+    "checkNodeSettings": "Verify node settings",
+    "edit": "Edit",
+    "modal": {
+      "title": "Connect Bitcoin full node",
+      "disconnectTitle": "Disconnect full node",
+      "steps": {
+        "landing": {
+          "title": "Node",
+          "header": "Start your full node. Don’t trust, verify.",
+          "description": "A Bitcoin full node validates all transactions and blocks, allowing you to use Bitcoin in a trustless way while contributing to the Bitcoin network.",
+          "list": {
+            "item1": "Set up Bitcoin Core on a device with sufficient resources.",
+            "item2": "Wait for your node to fully synchronize.",
+            "item3": "Make note of your node RPC credentials, IP address, and port number."
+          },
+          "disclaimer": "Running a full node requires a computer with sufficient resources and a broadband connection without data restrictions."
+        },
+        "node": {
+          "title": "Node",
+          "connectionSteps": {
+            "notConnected": {
+              "header": "Enter your node parameters",
+              "disclaimer": "Your full node must be fully synchronized before connecting Ledger Live.",
+              "fields": {
+                "nodeHost": {
+                  "title": "Host",
+                  "tooltip": "Leave as default if node runs on this computer, or replace the node IP address and port number."
+                },
+                "rpcCredentials": {
+                  "title": "RPC Credentials",
+                  "tooltip": "Enter the RPC username and password of your node, found in the bitcoin.conf file.",
+                  "usernamePlaceholder": "Username",
+                  "passwordPlaceholder": "Password"
+                },
+                "tls": {
+                  "title": "Use TLS",
+                  "tooltip": "Enable Transport Layer Security, for example, when using a hosted node solution."
+                }
+              }
+            },
+            "connecting": {
+              "header": "Testing node connection",
+              "description": "Please wait while we check if your full node is responding."
+            },
+            "success": {
+              "header": "Full node connection successful",
+              "description": "You can now configure your full node to scan for your accounts on the blockchain."
+            },
+            "failure": {
+              "header": "Could not reach full node",
+              "description": "Please ensure your node is fully synchronized and verify its connection settings."
+            }
+          }
+        },
+        "device": {
+          "title": "Device",
+          "connectionSteps": {
+            "pending": {
+              "header": "Getting accounts from device",
+              "description": "Please wait while the accounts to scan are added to the node configuration file."
+            },
+            "success": {
+              "header": "Accounts added to node configuration",
+              "description": "A configuration file was saved to the user data folder. It enables Ledger SatStack to connect to your full node and let it scan for your accounts on the blockchain.",
+              "cta": "View user data"
+            }
+          }
+        },
+        "accounts": {
+          "title": "Accounts",
+          "existing": "Existing accounts to scan",
+          "toScan": "Accounts to scan",
+          "toScanDescription": "Accounts to scan for each address type",
+          "toScanTooltip": "Increase only if you have 10+ BTC accounts.  Initial scan will be slower. "
+        },
+        "satstack": {
+          "title": "SatStack",
+          "connectionSteps": {
+            "notConnected": {
+              "header": "Download and run Ledger SatStack",
+              "description": "Ledger SatStack is a small application enabling Ledger Live to talk to your full node. Please download and run it before you continue.",
+              "disclaimer": "SatStack must be running for Ledger Live to connect to your full node.  Consider setting it to launch automatically when your computer boots.",
+              "cta": "Download SatStack"
+            },
+            "satstack-disconnected": {
+              "header": "Could not reach SatStack",
+              "description": "Please verify that SatStack is running on this computer."
+            },
+            "satstack-outdated": {
+              "header": "Please upgrade SatStack",
+              "description": "The SatStack version you are using is too old and may contain bugs or incompatibilities."
+            },
+            "node-disconnected": {
+              "header": "Could not reach full node",
+              "description": "Please verify that your node is reachable and that the connection settings you entered are correct."
+            },
+            "invalid-chain": {
+              "header": "invalid-chain title",
+              "description": "invalid-chain description for tooltip"
+            },
+            "initializing": {
+              "header": "Loading",
+              "description": ""
+            },
+            "ready": {
+              "header": "Ready",
+              "description": "The full node is fully synced. Your Bitcoin account balances are now correct."
+            },
+            "syncing": {
+              "header": "Node sync in progress…",
+              "description": "Recent transactions may not yet be visible, so Bitcoin account balances may be incorrect. If possible, run your node continuously to keep it in sync."
+            },
+            "scanning": {
+              "header": "Account scan in progress...",
+              "description": "You can add your accounts once the account scan is completed. Any Bitcoin accounts previously added through Ledger's explorers were removed."
+            }
+          }
+        },
+        "disconnect": {
+          "title": "Disconnect full node",
+          "cta": "Disconnect",
+          "description": "Are you sure? Disconnecting the full node will remove all Bitcoin accounts. You can add your accounts again using Ledger’s explorers."
+        }
+      }
+    }
+  },
+  "account": {
+    "lastOperations": "Latest operations",
+    "contractAddress": "Szerződés:",
+    "openInExplorer": "Megnyitás felfedezőben",
+    "emptyState": {
+      "title": "Nem rendelkezel még kriptovalutával?",
+      "desc": "Bizonyosodj meg róla, hogy a(z) <1><0>{{managerAppName}}</0></1> alkalmazás telepítve van és kezdj fogadni",
+      "descToken": "Bizonyosodj meg róla, hogy a(z) <1><0>{{managerAppName}}</0></1> alkalmazás telepítve van és kezdj el fogadni <3><0>{{ticker}}</0></3> és <5><0>{{tokenList}}</0> tokeneket</5>",
+      "buttons": {
+        "receiveFunds": "Fogadás",
+        "buy": "Buy"
+      }
+    },
+    "settings": {
+      "title": "Számla szerkesztése",
+      "advancedLogs": "Advanced",
+      "advancedTips": "Your xpub is privacy-sensitive data. Use with caution, especially when disclosing to third parties.",
+      "accountName": {
+        "title": "Számla neve",
+        "desc": "Description of the account"
+      },
+      "unit": {
+        "title": "Egység",
+        "desc": "Choose the unit to be used"
+      }
+    },
+    "availableBalance": "Elérhető egyenleg",
+    "frozenAssets": "Befagyasztott eszközök",
+    "bandwidth": "Sávszélesség",
+    "energy": "Energia",
+    "delegatedAssets": "Delegated assets",
+    "undelegating": "Undelegating",
+    "availableBalanceTooltip": "This amount is disposable.",
+    "frozenAssetsTooltip": "A befagyasztott eszközeid a Tron szavazási folyamatban használhatod. Ez képviseli az összes rendelkezésedre álló szavazatod.",
+    "bandwidthTooltip": "Fagyassz le eszközöket, hogy sávszélességet gyűjts",
+    "energyTooltip": "Fagyassz le eszközöket, hogy energiát gyűjts",
+    "delegatedAssetsTooltip": "Delegated assets are used in the Cosmos voting process. This represents your total number of votes.",
+    "undelegatingTooltip": "Undelegated assets are in a timelock of 21 days, before being available."
+  },
+  "exchange": {
+    "title": "Buy and sell crypto",
+    "reset": "Reset flow",
+    "banner": {
+      "title": "Buy crypto via our partner",
+      "description": "Purchase crypto assets via Coinify and receive your coins directly in your Ledger account",
+      "CTA": "Buy now"
+    },
+    "verifyAddress": "Please confirm the address displayed exactly matches the one shown on your device",
+    "buy": {
+      "title": "Buy crypto via our partner",
+      "tab": "Buy",
+      "selectCrypto": "Choose a crypto asset",
+      "selectAccount": "Choose an account",
+      "continue": "Continue",
+      "addAccount": "Add account"
+    },
+    "sell": {
+      "title": "Sell crypto via our partner",
+      "tab": "Sell",
+      "selectCrypto": "Choose a crypto asset",
+      "selectAccount": "Choose an account",
+      "continue": "Continue",
+      "addAccount": "Add account"
+    },
+    "history": {
+      "tab": "History"
+    }
+  },
+  "lend": {
+    "title": "Lend crypto",
+    "description": "Deposit your crypto on the Compound protocol to start earning interest.",
+    "tabs": {
+      "dashboard": "Dashboard",
+      "opened": "Opened loans",
+      "closed": "Closed loans",
+      "history": "History"
+    },
+    "assets": "Assets to lend",
+    "active": "Approved accounts",
+    "lendAsset": "Lend",
+    "highFeesModal": {
+      "title": "High fees on Ethereum",
+      "description": "Due to congestion on the Ethereum network, you may experience high fees when issuing transactions.",
+      "cta": "Got it"
+    },
+    "account": {
+      "amountSupplied": "Amount deposited",
+      "amountSuppliedTooltip": "Amount lent to the network",
+      "currencyAPY": "Currency APY",
+      "currencyAPYTooltip": "Yearly return rate of a deposit that’s continuously compounded",
+      "accruedInterests": "Accrued interest",
+      "accruedInterestsTooltip": "Interest generated on your lent assets",
+      "interestEarned": "Interest earned",
+      "interestEarnedTooltip": "Interest you have earned after withdrawal",
+      "openLoans": "Open loans",
+      "closedLoans": "Closed loans",
+      "amountRedeemed": "Amount withdrawn",
+      "date": "Date",
+      "info": "You can lend assets directly from your {{currency}} account and earn interest.",
+      "howCompoundWorks": "How does lending on Compound work?",
+      "lend": "Deposit {{currency}}"
+    },
+    "emptyState": {
+      "active": {
+        "title": "Lending",
+        "description": "You can lend assets directly from your Ethereum accounts and earn interest.",
+        "cta": "How does lending on Compound work?"
+      },
+      "closed": {
+        "title": "Your closed loans will appear here",
+        "description": "You have not made any loans yet.",
+        "cta": "Deposit"
+      },
+      "opened": {
+        "title": "Your opened loans will appear here",
+        "description": "You have not made any loans yet.",
+        "cta": "Deposit"
+      },
+      "history": {
+        "title": "History",
+        "description": "View the history of all your loan transactions.",
+        "cta": "Deposit"
+      }
+    },
+    "headers": {
+      "active": {
+        "accounts": "Account",
+        "amountSupplied": "Open loan",
+        "amountSuppliedTooltip": "Amount deposited in the network",
+        "accruedInterests": "Interest balance",
+        "accruedInterestsTooltip": "Interest being earned on loans",
+        "status": "Account status",
+        "actions": "Actions"
+      },
+      "status": {
+        "enablingTooltip": "Your transaction is broadcasting",
+        "toSupplyTooltip": "You can now supply your assets"
+      },
+      "closed": {
+        "assetLended": "Asset",
+        "amountRedeemed": "Withdrawal amount",
+        "interestsEarned": "Interest earned",
+        "date": "Date"
+      },
+      "opened": {
+        "assetLended": "Asset",
+        "amount": "Amount",
+        "accruedInterest": "Accrued interest",
+        "date": "Date"
+      },
+      "rates": {
+        "allAssets": "Asset",
+        "totalBalance": "Asset balance",
+        "totalBalanceTooltip": "Amount available to lend",
+        "grossSupply": "Gross supply",
+        "grossSupplyTooltip": "Total amount of assets deposited on the protocol",
+        "currentAPY": "Deposit APY",
+        "currentAPYTooltip": "Annual return rate earned on a continuously compounded deposit",
+        "actions": "Actions"
+      }
+    },
+    "manage": {
+      "cta": "Manage lending",
+      "title": "Manage loan",
+      "enable": {
+        "approve": "Approve",
+        "manageLimit": "Manage limit",
+        "viewDetails": "View details",
+        "info": "You have approved <0>{{amount}}</0> on this account. You can reduce the amount at a fee.",
+        "infoNoLimit": "You have fully approved this account. You can reduce the amount at a fee.",
+        "approvedWithLimit": "You have approved <0>{{value}}</0> on this account.",
+        "enabling": "You can deposit assets once the account approval is confirmed.",
+        "notEnabled": "You need to approve this account before being able to lend assets.",
+        "notEnoughApproved": "You must increase the limit approved on your account to lend."
+      },
+      "supply": {
+        "title": "Deposit",
+        "description": "Enter the amount of assets to lend to the protocol."
+      },
+      "withdraw": {
+        "title": "Withdraw",
+        "description": "Withdraw assets from the protocol to your Ledger account."
+      }
+    },
+    "enable": {
+      "title": "Approve account",
+      "steps": {
+        "selectAccount": {
+          "title": "Select account",
+          "selectLabel": "Account to lend from",
+          "cta": "Approve",
+          "alreadyEnabled": "This account is approved",
+          "notEnabled": "You need to pay fees to approve this account"
+        },
+        "amount": {
+          "title": "Amount",
+          "summary": "I grant access to <0>{{contractName}}</0> smart contract on my account <0>{{accountName}}</0> for a <0>{{amount}}</0> amount",
+          "limit": "limited {{amount}}",
+          "noLimit": "no limit {{assetName}}",
+          "contractName": "Compound {{currencyName}}",
+          "advanced": "Advanced",
+          "amountLabel": "Amount to approve",
+          "amountLabelTooltip": "This limits the amount available to the smart contract."
+        },
+        "connectDevice": {
+          "title": "Device"
+        },
+        "confirmation": {
+          "title": "Confirmation",
+          "success": {
+            "title": "Operation sent successfully",
+            "text": "The approval was sent to the network for confirmation. You’ll be able to issue loans once it is confirmed.",
+            "done": "Close",
+            "cta": "View details",
+            "info": "Transactions can take some time to be displayed in an explorer and to be confirmed."
+          },
+          "pending": {
+            "title": "Enabling your assets..."
+          },
+          "broadcastError": "Your transaction may have failed. Please wait a moment then check the transaction history before trying again."
+        }
+      }
+    },
+    "withdraw": {
+      "title": "Withdraw assets",
+      "steps": {
+        "amount": {
+          "title": "Amount",
+          "advanced": "Advanced",
+          "amountLabel": "Amount to withdraw",
+          "amountToWithdraw": "Amount to withdraw",
+          "withdrawAll": "Withdraw Max",
+          "placeholder": "Withdraw Max",
+          "maxWithdrawble": "Maximum amount to withdraw is"
+        },
+        "connectDevice": {
+          "title": "Device"
+        },
+        "confirmation": {
+          "title": "Confirmation",
+          "success": {
+            "title": "Withdrawal sent successfully",
+            "text": "Your assets will be available once the network has confirmed the withdrawal.",
+            "done": "Close",
+            "cta": "View details"
+          },
+          "pending": {
+            "title": "Withdrawing your assets..."
+          },
+          "broadcastError": "Your transaction may have failed. Please wait a moment then check the transaction history before trying again."
+        }
+      }
+    },
+    "info": {
+      "terms": {
+        "title": "Lend Crypto",
+        "subtitle": "Lend assets on the Compound protocol",
+        "description": "The Compound protocol allows you to lend and borrow assets on the Ethereum network. You can lend assets and earn interest directly from your Ledger acccount.",
+        "switchLabel": "<1>I have read and agree with the </1><0>Terms of Use</0><1>.</1>"
+      },
+      "steps": {
+        "title": "Step <0>{{step}} / {{total}}</0>",
+        "1": {
+          "subtitle": "Approve an account to allow the protocol to",
+          "subtitle2": "process future loans.",
+          "description": "You need to authorize the Compound smart contract to transfer up to a certain amount of assets to the protocol. Approving an account gives permission to the protocol to process future loans."
+        },
+        "2": {
+          "subtitle": "Supply assets to earn interest",
+          "description": "Once an account is approved, you can select the amount of assets you want to lend and issue a transaction to the protocol. Interests accrue immediately after the transaction is confirmed."
+        },
+        "3": {
+          "subtitle": "Withdraw assets at any time",
+          "description": "You can withdraw your assets and earned interest at any time, partially or entirely, directly from your Ledger account."
+        }
+      }
+    },
+    "supply": {
+      "title": "Deposit assets",
+      "steps": {
+        "amount": {
+          "title": "Amount",
+          "selectedAccount": "Selected account",
+          "amountToSupply": "Amount to deposit",
+          "available": "Available balance",
+          "maxSupply": "Maximum amount to lend is"
+        },
+        "device": {
+          "title": "Device"
+        },
+        "confirmation": {
+          "title": "Confirmation",
+          "success": {
+            "title": "Deposit sent successfully",
+            "text": "You will start earning interest once the network has confirmed the deposit.",
+            "done": "Close",
+            "cta": "View details",
+            "info": "Transactions can take some time to be displayed in an explorer and to be confirmed."
+          },
+          "broadcastError": "Your transaction may have failed. Please wait a moment then check the transaction history before trying again."
+        }
+      }
+    },
+    "noEthAccount": {
+      "title": "Please create an ETH account",
+      "description": "<0>{{ asset }}({{ ticker }})</0> is an Ethereum ERC-20 token. To lend {{ ticker }}, install the Ethereum app and create an Ethereum account",
+      "cta": "Add account"
+    },
+    "emptyAccountDeposit": {
+      "title": "You don't have any {{ asset }} account.",
+      "description": "In order to deposit funds and lend crypto you need a {{ asset }} account. Please Receive funds on your Ethereum address.",
+      "ctaBuy": "Buy {{ asset }}",
+      "ctaReceive": "Receive {{ asset }}"
+    }
+  },
+  "accounts": {
+    "title": "Számlák",
+    "noResultFound": "Nem találhatók számlák.",
+    "order": {
+      "name|asc": "Név A-Z",
+      "name|desc": "Név Z-A",
+      "balance|asc": "Legalacsonyabb Egyenleg",
+      "balance|desc": "Legmagasabb Egyenleg"
+    },
+    "range": {
+      "week": "Hét",
+      "month": "Hónap",
+      "year": "Év"
+    },
+    "optionsMenu": {
+      "title": "Opciók",
+      "exportOperations": "Tevékenységnapló exportálása",
+      "exportToMobile": "Exportálás mobilra"
+    },
+    "contextMenu": {
+      "star": "Csillag",
+      "receive": "Fogadás",
+      "send": "Küldés",
+      "swap": "Swap",
+      "buy": "Buy",
+      "sell": "Sell",
+      "edit": "Számla szerkesztése",
+      "hideToken": "Token elrejtése"
+    }
+  },
+  "help": {
+    "title": "Help & Support",
+    "gettingStarted": {
+      "title": "Getting started",
+      "desc": "Start here"
+    },
+    "status": {
+      "title": "Ledger Status",
+      "desc": "Learn crypto"
+    },
+    "helpCenter": {
+      "title": "Ledger Support",
+      "desc": "Get help"
+    },
+    "ledgerAcademy": {
+      "title": "Ledger Academy",
+      "desc": "Learn crypto"
+    },
+    "facebook": {
+      "title": "Facebook",
+      "desc": "Like our page"
+    },
+    "twitter": {
+      "title": "Twitter",
+      "desc": "Follow us"
+    },
+    "github": {
+      "title": "Github",
+      "desc": "Review our code"
+    }
+  },
+  "blacklistToken": {
+    "title": "Token elrejtése",
+    "desc": "This action will hide all <1><0>{{tokenName}}</0></1> accounts, you can show them again using <3>Settings</3>",
+    "hideCTA": "Token elrejtése"
+  },
+  "banners": {
+    "cleanCache": {
+      "title": "Modification of experimental settings require a clear cache",
+      "cta": "Clear cache"
+    },
+    "migrate": "Ledger Live számlák frissítése lehetséges",
+    "genericTerminatedCrypto": "{{coinName}} többé nem támogatott",
+    "ledgerAcademy": {
+      "title": "Ledger Academy",
+      "description": "Everything you need to know about blockchain, security, cryptocurrency and your Ledger device",
+      "cta": "Start learning"
+    },
+    "stakeCosmos": {
+      "title": "Staking with COSMOS",
+      "description": "Delegate your ATOM coins through the account page and earn rewards today",
+      "cta": "Stake Cosmos now"
+    },
+    "buyCrypto": {
+      "title": "Buy Crypto",
+      "description": "Purchase crypto assets through our partner and receive them directly in your Ledger account",
+      "cta": "Buy now"
+    },
+    "backupPack": {
+      "title": "Back-up pack",
+      "description": "Securely manage your assets with a Nano X and Nano S at a discounted price",
+      "cta": "Buy back-up pack"
+    },
+    "sell": {
+      "title": "sell crypto",
+      "description": "Sell Bitcoin with our partner directly from Ledger Live"
+    },
+    "stakeAlgorand": {
+      "title": "Staking with ALGORAND",
+      "description": "Make the most of your ALGO. Simply add funds to your accounts and earn staking rewards today."
+    },
+    "swap": {
+      "title": "Swap crypto",
+      "description": "Exchange one crypto for another from Ledger Live with our partner."
+    },
+    "lending": {
+      "title": "Lend Crypto",
+      "description": "Lend stablecoins to the Compound protocol and earn interests today"
+    },
+    "blackfriday": {
+      "title": "BLACK FRIDAY ",
+      "description": "Enjoy 40% off Ledger hardware wallets with the promo code BLACKFRIDAY20"
+    }
+  },
+  "dashboard": {
+    "title": "Portfólio",
+    "emptyAccountTile": {
+      "desc": "Add accounts to manage other crypto assets",
+      "createAccount": "Számla hozzáadása"
+    },
+    "recentActivity": "Latest operations",
+    "totalBalance": "Összes egyenleg",
+    "transactionsPendingConfirmation": "Some transactions are not confirmed yet. These will be reflected in your balance and useable after being confirmed."
+  },
+  "currentAddress": {
+    "title": "Jelenlegi cím",
+    "for": "Cím <1><0>{{name}}</0></1> -hoz",
+    "messageIfUnverified": "Verify that the shared address exactly matches the one on your device",
+    "messageIfSkipped": "Your {{name}} address was not confirmed on your Ledger device. Please verify it for security."
+  },
+  "emptyState": {
+    "dashboard": {
+      "title": "Install apps on your device",
+      "desc": "Lépj az Eszközkezelőbe, hogy alkalmazásokat telepíts az eszközödre. Hozzá tudsz adni számlákat, ha már vannak telepített alkalmazások az eszközödön.",
+      "buttons": {
+        "installApp": "Lépj az Eszközkezelőbe",
+        "help": "Segítség"
+      }
+    },
+    "accounts": {
+      "title": "A kezdéshez adj hozzá egy számlát",
+      "desc": "Add an account to start managing your crypto assets. You must have the app for your crypto asset installed on your device.",
+      "buttons": {
+        "addAccount": "Számla hozzáadása",
+        "installApp": "Lépj az Eszközkezelőbe alkalmazások telepítéséhez",
+        "help": "Segítség"
+      }
+    }
+  },
+  "genuinecheck": {
+    "modal": {
+      "title": "Eredetiség ellenőrzés"
+    },
+    "deviceInBootloader": "Az eszköz Bootloader módban. Kattints a <1>Folytatásra</1> a frissítéshez."
+  },
+  "tokensList": {
+    "title": "Tokenek",
+    "cta": "Token hozzáadása",
+    "placeholder": "To add tokens, simply send them to your {{currencyName}} address.",
+    "link": "Tudj meg többet",
+    "seeTokens": "Tokenek megjelenítése ({{tokenCount}})",
+    "hideTokens": "Tokenek elrejtése ({{tokenCount}})",
+    "tooltip": "Token innen",
+    "countTooltip": "1 token",
+    "countTooltip_plural": "{{count}} tokenek",
+    "algorand": {
+      "title": "ASA (Assets)",
+      "cta": "Add ASA",
+      "placeholder": "You can add assets to your {{currencyName}} account.",
+      "link": "How Assets (ASA) works?",
+      "seeTokens": "Show ASA ({{tokenCount}})",
+      "hideTokens": "Hide ASA ({{tokenCount}})",
+      "tooltip": "ASA from",
+      "countTooltip": "1 ASA",
+      "countTooltip_plural": "{{count}} ASA"
+    }
+  },
+  "subAccounts": {
+    "title": "Alszámlák",
+    "seeSubAccounts": "Alszámlák megjelenítése ({{tokenCount}})",
+    "hideSubAccounts": "Alszámlák elrejtése ({{tokenCount}})",
+    "countTooltip": "1 alszámla",
+    "countTooltip_plural": "{{count}} alszámla"
+  },
+  "migrateAccounts": {
+    "overview": {
+      "title": "Ledger Live számlák frissítése",
+      "successTitle": "Számlák sikeresen frissítve",
+      "successDescPlu": "A(z) {{assets}} számláid frissítve, és készen állnak a használatra",
+      "successDesc": "A(z) {{assets}} számlád frissítve, és készen áll a használatra",
+      "mobileTitle": "Számlák exportálása mobilra",
+      "mobileDesc": "Klikkelj az alább található gombra, hogy exportáld a frissített számláid a Ledger Live mobilalkalmazásba.",
+      "mobileCTA": "Exportálás mobilra",
+      "description": "Új funkciók a Ledger Live-ban a számláid frissítését igénylik.",
+      "currency": "1 {{currency}} számla frissítése szükséges:",
+      "currency_plural": "{{count}} {{currency}} számlák frissítése szükséges:",
+      "footer": "Szükséged van a Ledger eszközödre a frissítés befejezéséhez",
+      "pendingDevices": "1 számlát nem lehet frissíteni. Kérlek, csatlakoztasd az eszközt, társítva az alábbi fiókhoz",
+      "pendingDevices_plural": "{{totalMigratableAccounts}} számlákat nem lehet frissíteni. Kérlek, csatlakoztasd az eszközt, társítva az alábbi fiókhoz",
+      "doItLaterBtn": "Későbbre halasztás"
+    },
+    "progress": {
+      "finished": {
+        "title": "{{currencyName}} frissítés befejezve",
+        "description": ""
+      },
+      "scanning": {
+        "title": "{{currencyName}} frissítés folyamatban...",
+        "description": "Please wait for your accounts to be updated"
+      },
+      "finished-empty": {
+        "title": "{{currencyName}} frissítés nincs befejezve",
+        "description": "Nincs frissíthető {{currencyName}} számla"
+      }
+    },
+    "cta": {
+      "startUpdate": "Frissítés indítása",
+      "nextCurrency": "Folytatás a(z) {{currency}} frissítésével"
+    }
+  },
+  "addAccounts": {
+    "title": "Számlák hozzáadása",
+    "breadcrumb": {
+      "informations": "Kriptovaluta",
+      "connectDevice": "Eszköz",
+      "import": "Számlák",
+      "finish": "Megerősítés"
+    },
+    "fullNodeReadyInfo": "Accounts will be added using your Bitcoin full node.",
+    "fullNodeConfigure": "Configure node",
+    "tokensTip": "{{token}} ({{ticker}}) egy {{tokenType}} token. Közvetlenül tudsz tokeneket fogadni a(z) {{currency}} számlán.",
+    "accountToImportSubtitle_plural": "Meglévő számlák hozzáadása",
+    "selectAll": "Összes kiválasztása ({{count}})",
+    "unselectAll": "Összes kiválasztásának megszűntetése ({{count}})",
+    "noAccountToImport": "Nincs meglévő {{currencyName}} számla amit hozzá tudnál adni",
+    "success": "Account added successfully",
+    "success_plural": "Accounts added successfully",
+    "successDescription": "Add other accounts or return to Portfolio",
+    "successDescription_plural": "Add other accounts or return to Portfolio",
+    "createNewAccount": {
+      "noOperationOnLastAccount": "Can't add a new account before you've received assets on your <1><0>{{accountName}}</0></1> account",
+      "noAccountToCreate": "No <1><0>{{currencyName}}</0></1> account was found to be created"
+    },
+    "supportLinks": {
+      "segwit_or_native_segwit": "Segwit or Native Segwit?"
+    },
+    "cta": {
+      "addMore": "Több hozzáadása",
+      "add": "Számla hozzáadása",
+      "add_plural": "Számlák hozzáadása",
+      "addAccountName": "Add {{currencyName}} account",
+      "receive": "Receive"
+    },
+    "sections": {
+      "importable": {
+        "title": "Meglévő számla hozzáadása"
+      },
+      "creatable": {
+        "title": "Új számla hozzáadása"
+      },
+      "imported": {
+        "title": "Jelenleg a portfólióban lévő számlák ({{count}})"
+      },
+      "migrate": {
+        "title": "Frissíthető számlák"
+      }
+    }
+  },
+  "operationDetails": {
+    "whatIsThis": "Mi ez a művelet?",
+    "title": "Művelet részletei",
+    "account": "Számla",
+    "date": "Dátum",
+    "status": "Státusz",
+    "confirmed": "Megerősítve",
+    "failed": "Sikertelen",
+    "notConfirmed": "Nem megerősített",
+    "fees": "Fee",
+    "noFees": "Nincsenek díjak",
+    "from": "Innen",
+    "to": "Ide",
+    "identifier": "Tranzakció azonosító",
+    "viewOperation": "Megtekintés felfedezőben",
+    "showMore": "Mutass {{recipients}} többet",
+    "showLess": "Mutass kevesebbet",
+    "tokenOperations": "Token műveletek",
+    "subAccountOperations": "Alszámla műveletek",
+    "tokenTooltip": "Ez a művelet a következő token műveletekhez kapcsolódik",
+    "subAccountTooltip": "Ez a művelet a következő alszámla műveletekhez kapcsolódik",
+    "internalOperations": "Belső műveletek",
+    "internalOpTooltip": "Ennek a műveletnek belső műveletei vannak",
+    "details": "{{ currency }} részletek",
+    "multipleAddresses": "Miért van több cím?",
+    "extra": {
+      "resource": "Forrás",
+      "frozenAmount": "Befagyasztott mennyiség",
+      "unfreezeAmount": "Kiolvasztott mennyiség",
+      "address": "Cím",
+      "votes": "Szavazatok ({{number}})",
+      "votesAddress": "<0>{{votes}}</0> a <2>{{name}}</2>",
+      "validators": "Validators",
+      "delegated": "Delegated",
+      "redelegated": "Redelegated",
+      "redelegatedFrom": "Redelegated from",
+      "redelegatedTo": "Redelegated to",
+      "redelegatedAmount": "Redelegated amount",
+      "undelegated": "Undelegated",
+      "undelegatedFrom": "Undelegated from",
+      "undelegatedAmount": "Undelegated amount",
+      "rewardFrom": "Reward from",
+      "rewardAmount": "Amount collected",
+      "memo": "Memo",
+      "assetId": "Asset ID",
+      "rewards": "Earned rewards"
+    }
+  },
+  "operationList": {
+    "noMoreOperations": "Ez minden"
+  },
+  "DeviceAction": {
+    "allowAppPermission": "Nyisd meg a(z) {{wording}} alkalmazást az eszközödön",
+    "allowAppPermissionSubtitleToken": "a {{token}} tokenjeid kezeléséhez",
+    "allowManagerPermission": "Allow {{wording}} on your device",
+    "loading": "Betöltés...",
+    "connectAndUnlockDevice": "Csatlakoztasd, és old fel az eszközöd",
+    "unlockDevice": "Old fel az eszközöd",
+    "quitApp": "Lépj ki az alkalmazásból az eszközödön",
+    "appNotInstalled": "Kérlek, telepítsd a(z) {{appName}} alkalmazást",
+    "openManager": "Eszközkezelő megnyitása",
+    "outdated": "App version outdated",
+    "outdatedDesc": "An important update is available for the {{appName}} application on your device. Please go to the Manager to update it.",
+    "swap": {
+      "notice": "Verify the Swap details on your device before sending it. The addresses are exchanged securely so you don’t have to verify them.",
+      "confirm": "Confirm Swap transaction",
+      "amountSent": "Amount sent",
+      "amountReceived": "Amount received",
+      "fees": "Fees",
+      "provider": "Provider"
+    },
+    "sell": {
+      "notice": "Verify the Sell details on your device before sending it. The addresses are exchanged securely so you don’t have to verify them.",
+      "confirm": "Confirm Sell transaction"
+    }
+  },
+  "manager": {
+    "tabs": {
+      "appCatalog": "Alkalmazások listája",
+      "appCatalogSearch": "Alkalmazás keresése a listában...",
+      "appsOnDevice": "Telepített alkalmazások",
+      "appOnDeviceSearch": "Telepített alkalmazások keresése..."
+    },
+    "deviceStorage": {
+      "freeSpace": "<0>{{space}}</0> szabad",
+      "noFreeSpace": "Nincs elég hely",
+      "installed": "Alkalmazások",
+      "capacity": "Kapacitás",
+      "used": "Felhasznált",
+      "firmwareAvailable": "Firmware is outdated:",
+      "firmwareUpToDate": "Firmware is up to date:",
+      "genuine": "Az eszköz eredeti",
+      "incomplete": "Some apps were not recognized. Please uninstall, then reinstall them."
+    },
+    "applist": {
+      "placeholder": "No match for the search with the selected filters",
+      "placeholderNoAppsInstalled": "Nincsenek telepített alkalmazások az eszközödön",
+      "placeholderGoToCatalog": "Nyisd meg az Alkalmazás katalógust alkalmazások telepítéséhez",
+      "noResultsFound": "Nincs találat",
+      "noResultsDesc": "Kérjük, ellenőrizd a helyesírást, és próbáld újra",
+      "filter": {
+        "title": "Mutat",
+        "all": "Összes",
+        "supported": "Live által támogatott",
+        "installed": "Telepített",
+        "not_installed": "Nincs telepítve"
+      },
+      "sort": {
+        "title": "Rendezés",
+        "name_asc": "Név A-Z",
+        "name_desc": "Név Z-A",
+        "marketcap_desc": "Piaci Kapitalizáció"
+      },
+      "installSuccess": {
+        "title": "App installed successfully. You can now add your {{app}} accounts",
+        "title_plural": "Apps installed successfully. You can now add your accounts",
+        "manageAccount": "Számláim kezelése"
+      },
+      "updatable": {
+        "title": "Frissítések elérhetők",
+        "progressTitle": "{{number}} Alkalmazás frissítések",
+        "progressWarning": "Ne zárd be az eszközkezelőt a frissítés alatt.",
+        "progress": "Összes frissítése..."
+      },
+      "item": {
+        "version": "Verzió {{version}}",
+        "installing": "Telepítés...",
+        "uninstalling": "Törlés...",
+        "updating": "Frissítés...",
+        "scheduled": "Sorban áll",
+        "update": "Frissítés elérhető",
+        "updateAll": "Összes frissítése",
+        "updateAllOutOfMemory": "Not enough storage. Please uninstall some apps",
+        "install": "Telepítés",
+        "installed": "Telepített",
+        "updated": "Frissítve",
+        "uninstall": "Törlés",
+        "notEnoughSpace": "Nincs elég hely",
+        "supported": "Ledger Live által támogatott",
+        "addAccount": "Számla hozzáadása",
+        "addAccountTooltip": "{{appName}} számla hozzáadása",
+        "addAccountWarn": "Kérlek várj az alkalmazásfrissítés befejezéséig",
+        "learnMore": "Tudj meg többet",
+        "learnMoreTooltip": "Tudj meg többet a(z) {{appName}} alkalmazásról",
+        "removeTooltip": "{{appName}} törlése",
+        "useAppForToken": "Looking to manage {{tokenType}} tokens?",
+        "tokenAppDisclaimer": "To manage {{tokenName}} {{tokenType}} tokens, <1>install the {{appName}} app</1> and please verify you indeed have the <1>{{tokenType}} version</1> before sending <3>to your {{appName}} account</3>.",
+        "tokenAppDisclaimerInstalled": "To manage <1>{{tokenName}} {{tokenType}} tokens</1>, please verify you indeed have the <1>{{tokenType}} version</1> before sending <3>to your {{appName}} account</3>.",
+        "goToAccounts": "Irány a számlákhoz",
+        "intallParentApp": "{{appName}} alkalmazás telepítése"
+      },
+      "uninstall": {
+        "title": "Összes törlése",
+        "subtitle": "Minden alkalmazás törlése?",
+        "description": "Don't worry, uninstalling apps does not affect your crypto assets. You can reinstall apps in the App catalog."
+      }
+    },
+    "apps": {
+      "dependencyInstall": {
+        "title": "{{dependency}} alkalmazás szükséges",
+        "description": "A(z) {{dependency}} alkalmazás is telepítve lesz, mert a(z) {{app}} -hoz szükséges.",
+        "confirm": "Alkalmazások telepítése"
+      },
+      "dependencyUninstall": {
+        "title": " {{app}} és vele összefüggő alkalmazások törlése?",
+        "showAll": "Eltávolítandó alkalmazások megjelenítése",
+        "description": "Pár telepített alkalmazásod társítva van a(z) {{app}} alkalmazáshoz. Ezek is el lesznek távolítva.",
+        "confirm": "{{app}} és egyéb alkalmazások törlése"
+      }
+    },
+    "firmware": {
+      "updateLater": "Mégsem",
+      "seedReady": "I have my recovery phrase",
+      "dontHaveSeed": "Don't have your recovery phrase? ",
+      "followTheGuide": "Kövesd a lépésről-lépésre történő frissítési útmutatónkat",
+      "removeApps": "Töröld az összes alkalmazást a frissítés előtt",
+      "update": "Szoftverfrissítés",
+      "updateBtn": "Szoftver frissítése",
+      "latest": "{{version}} Szoftververzió elérhető",
+      "contactSupport": "Contact support",
+      "deprecated": "Device firmware version too old to be updated. Contact Ledger Support for a replacement.",
+      "prepareSeed": "Ensure your 24-word recovery phrase is written down on the Recovery sheet and it is available, as a precaution.",
+      "disclaimerTitle": "Telepíteni készülsz a <1>szoftververziót {{version}}</1>.",
+      "downloadingUpdateDesc": "Please wait for the update installer to be downloaded"
+    },
+    "modal": {
+      "steps": {
+        "downloadingUpdate": "Frissítés letöltése",
+        "updateMCU": "Szoftverfrissítés",
+        "reset": "Eszköz előkészítése",
+        "osu": "OSU telepítése...",
+        "flash-mcu": "MCU frissítése...",
+        "flash-bootloader": "Bootloader frissítése...",
+        "firmware": "Szoftver frissítése...",
+        "flash": "Eszköz előkészítése..."
+      },
+      "confirmIdentifier": "Azonosító ellenőrzése",
+      "confirmIdentifierText": "Verify that the identifier on your device is the same as the identifier below. Confirm and enter your PIN code if requested.",
+      "identifier": "Azonosító",
+      "mcuTitle": "Frissítés befejezése",
+      "mcuFirst": "Válaszd le az USB kábelt az eszközödről",
+      "mcuSecond": "Nyomd meg a bal gombot, és tartsd nyomva miközben újracsatlakoztatod az USB kábelt, míg a <1><0>{{repairProcessing}}</0></1> meg nem jelenik",
+      "mcuPin": "Please wait for the update to finish",
+      "mcuSecondNanoX": "Press and hold the left button until <1><0>{{bootloaderOption}}</0></1> appears. Press both buttons to confirm and reconnect your device.",
+      "mcuBlueFirst": "Nyomd meg, és tartsd lenyomva 10 másodpercig az oldalsó gombot az eszköz kikapcsolásához. Engedd el a gombot.",
+      "mcuBlueSecond": "Nyomd meg, és tartsd lenyomva a gombot minimum 5 másodpercig, amíg a Boot Options meg nem jelenig. Nyomj a Bootloader Mode-ra",
+      "successTitle": "Szoftver frissítve",
+      "successText": "Kérlek, telepítsd újra az alkalmazásokat az eszközödön",
+      "resetSteps": {
+        "first": "1. Indítsd újra az eszközöd",
+        "connect": "Csatlakoztasd a {{deviceName}} -t a számítógépedhez az USB kábelt használva.",
+        "turnOn": "Nyomd meg a gombot az eszközön a bekapcsoláshoz.",
+        "falsePin": "Enter three wrong PINs to reset the device.",
+        "turnOff": "Nyomd meg, és tartsd lenyomva az oldalsó gombot míg a(z) {{action}} meg nem jelenik.",
+        "confirmTurnOff": "Nyomj rá a {{action}} -ra a megerősítéshez.",
+        "second": "2. Bootolás {{mode}} módban",
+        "boot": "Nyomd meg, és tartsd lenyomva az oldalsó gombot míg a(z) {{option}} meg nem jelenik",
+        "recoveryMode": "Nyomj rá a {{mode}} módra. Várj, míg a főképernyő megjelenik.",
+        "third": "3. Minden alkalmazás törlése",
+        "openLive": "Nyisd meg az Eszközkezelőt a Ledger Live-ban.",
+        "uninstall": "Kattints a szürke kuka ikonra minden jelenleg telepített alkalmazás törléséhez a {{deviceName}} eszközön. Ez tárhelyet szabadít fel a szoftverfrissítés számára.",
+        "disclaimer": "Note: Your funds are not affected by this operation, the private keys to access your crypto assets in the blockchain remain secure on your Recovery sheet."
+      }
+    }
+  },
+  "claimReward": {
+    "title": "Jutalmak begyűjtése",
+    "steps": {
+      "rewards": {
+        "title": "Jutalmak",
+        "description": "Gratulálok! Elértél <1>{{amount}}</1> a megerősítőkre történő szavazással.",
+        "info": "24 óránkét tudod begyűjteni a jutalmaid."
+      },
+      "connectDevice": {
+        "title": "Eszköz"
+      },
+      "confirmation": {
+        "title": "Megerősítés",
+        "success": {
+          "title": "Jutalmak begyűjtve",
+          "text": "Your rewards were added to your available balance.",
+          "cta": "Részletek megtekintése",
+          "done": "Kész"
+        },
+        "pending": {
+          "title": "Jutalmaid begyűjtése..."
+        },
+        "broadcastError": "Your transaction may have failed. Please wait a moment then check the transaction history before trying again."
+      }
+    }
+  },
+  "freeze": {
+    "title": "Eszközök befagyasztása",
+    "steps": {
+      "amount": {
+        "title": "Mennyiség",
+        "resourceInfo": "Bandwidth or Energy?",
+        "bandwidthDescription": "Sávszélesség pontok felhasználhatók tranzakciók küldéséhez anélkül, hogy TRX-et költenél a hálózati díjak fedezésére. Válassz sávszélességet a napi ingyenes tranzakciók növeléséhez.",
+        "energyDescription": "Energia pontok szükségesek az okosszerződések végrehajtásához. Ha nem futtatsz semmilyen okosszerződést, nem szükséges, hogy a jutalmaid Energiában kérd.",
+        "amountLabel": "Befagyasztandó mennyiség",
+        "available": "Elérhető: {{amountAvailable}}",
+        "info": "Befagyasztott eszközöket nem lehet küldeni 3 napig."
+      },
+      "connectDevice": {
+        "title": "Eszköz"
+      },
+      "confirmation": {
+        "tooltip": {
+          "title": "Transaction is awaiting validation",
+          "desc": "Várnod kell egy percet mielőtt szavazni tudsz"
+        },
+        "title": "Megerősítés",
+        "success": {
+          "title": "",
+          "textNRG": "Energiát kezdesz el gyűjteni, ha a hálózat megerősítette a befagyasztást. Rövidesen szavazhatsz a Szuper Képviselőkre, hogy jutalmakat kapj.",
+          "text": "Sávszélességet kezdesz el gyűjteni, ha a hálózat megerősítette a befagyasztást. Rövidesen szavazhatsz a Szuper Képviselőkre, hogy jutalmakat kapj.",
+          "votePending": "Szavazás {{time}}",
+          "vote": "Szavazás",
+          "later": "Szavazás később"
+        },
+        "pending": {
+          "title": "Eszközeid befagyasztása..."
+        },
+        "broadcastError": "Your transaction may have failed. Please wait a moment then check the transaction history before trying again."
+      }
+    }
+  },
+  "unfreeze": {
+    "title": "Eszközök kiolvasztása",
+    "steps": {
+      "amount": {
+        "title": "Kiolvasztás",
+        "info": "A kiolvasztás csökkenteni fogja a {{resource}} és törli a szavazataid."
+      },
+      "connectDevice": {
+        "title": "Eszköz"
+      },
+      "confirmation": {
+        "title": "Megerősítés",
+        "success": {
+          "title": "",
+          "text": "Your assets were unfrozen successfully. Your {{resource}} points will be decreased, and your votes will be cancelled.",
+          "continue": "Folytatás"
+        },
+        "pending": {
+          "title": "Eszközeid befagyasztása..."
+        },
+        "broadcastError": "Your transaction may have failed. Please wait a moment then check the transaction history before trying again."
+      }
+    }
+  },
+  "vote": {
+    "title": "Leadott szavazatok",
+    "titleExisting": "Szavazatok kezelése",
+    "steps": {
+      "castVotes": {
+        "max": "MAX",
+        "title": "Szavazás",
+        "search": "Keresés név vagy cím alapján...",
+        "totalVotes": "Összes szavazat: {{total}}",
+        "selected": "Kiválasztott: {{total}}",
+        "maxSelected": "Max kiválasztott: {{total}}",
+        "allVotesAreUsed": "All assets are distributed",
+        "maxUsed": "Insufficient assets",
+        "superRepresentatives": "Szuper Képviselõk (SR)",
+        "candidates": "Jelöltek",
+        "estYield": "becsült hozam",
+        "srInfo": "SR vagy Jelöltek?",
+        "validators": "Megerősítők ({{total}})",
+        "votes": "Available assets: {{total}}",
+        "noResults": "No validator found for \"<0>{{search}}</0>\"."
+      },
+      "connectDevice": {
+        "title": "Eszköz"
+      },
+      "confirmation": {
+        "title": "Megerősítés",
+        "success": {
+          "title": "A szavazataid sikeresen leadtad.",
+          "text": "",
+          "howVotingWorks": "Hogy működik a szavazás?",
+          "done": "Kész",
+          "cta": "Részletek megtekintése"
+        },
+        "pending": {
+          "title": "Eszközeid befagyasztása..."
+        },
+        "broadcastError": "Your transaction may have failed. Please wait a moment then check the transaction history before trying again."
+      }
+    }
+  },
+  "buy": {
+    "title": "Buy",
+    "titleCrypto": "Buy {{currency}}",
+    "buyCTA": "Buy {{currencyTicker}}"
+  },
+  "sell": {
+    "title": "Sell",
+    "titleCrypto": "Sell {{currency}}",
+    "buyCTA": "Sell {{currencyTicker}}"
+  },
+  "receive": {
+    "title": "Fogadás",
+    "successTitle": "A cím biztonságosan megosztva",
+    "steps": {
+      "chooseAccount": {
+        "title": "Számla",
+        "label": "Jóváírandó számla",
+        "parentAccount": "1. Válassz ki egy {{currencyName}} számlát",
+        "token": "2. Válassz egy tokent",
+        "verifyTokenType": "Please verify that <0>{{token}}</0> is an <0>{{tokenType}}</0> token. Any other crypto asset sent to an {{currency}} account may be lost.",
+        "warningTokenType": "Please only send <0>{{ticker}}</0> or <0>{{tokenType}}</0> tokens to an {{currency}} account. Any other crypto assets may be lost."
+      },
+      "connectDevice": {
+        "title": "Eszköz",
+        "withoutDevice": "Nincs nálad az eszközöd?"
+      },
+      "receiveFunds": {
+        "title": "Fogadás"
+      },
+      "warning": {
+        "tezos": {
+          "text": "Az megjelölt számlára kapott összeget hozzáadjuk a teljes összeghez. Válassz másik számlát ha el szeretnéd ezt kerülni."
+        }
+      }
+    }
+  },
+  "send": {
+    "title": "Küldés",
+    "totalSpent": "Összesen jóváírandó",
+    "steps": {
+      "recipient": {
+        "title": "Fogadó"
+      },
+      "amount": {
+        "title": "Mennyiség",
+        "banner": "Maximum elkölthető mennyiség"
+      },
+      "summary": {
+        "title": "Összegzés"
+      },
+      "device": {
+        "title": "Eszköz"
+      },
+      "details": {
+        "utxoLag": "This transaction may take long to verify and sign because the account has a significant number of coins.",
+        "subaccountsWarning": "You will need to refill this account with {{ currency }} in order to send the tokens of this account",
+        "from": "Innen",
+        "to": "Ide",
+        "selectAccountDebit": "Használni kívánt számla",
+        "recipientAddress": "Fogadó címe",
+        "amount": "Mennyiség",
+        "fees": "Hálózati díjak",
+        "useMax": "Összes küldése",
+        "rippleTag": "Címke",
+        "rippleTagPlaceholder": "Opcionális",
+        "ethereumGasLimit": "Gas határ",
+        "ethereumGasPrice": "Gas ár",
+        "unitPerByte": "{{unit}} byte-onként"
+      },
+      "verification": {
+        "streaming": {
+          "accurate": "Betöltés... ({{percentage}})",
+          "inaccurate": "Betöltés..."
+        }
+      },
+      "confirmation": {
+        "title": "Megerősítés",
+        "success": {
+          "title": "Tranzakció elküldve",
+          "text": "Your account balance will be updated when the blockchain confirms the transaction",
+          "cta": "Részletek megtekintése"
+        },
+        "pending": {
+          "title": "Tranzakció küldése folyamatban..."
+        },
+        "broadcastError": "Your transaction may have failed. Please wait a moment then check the transaction history before trying again."
+      },
+      "warning": {
+        "tezos": {
+          "text": "Az elküldendő összeg le lesz vonva a számlád egyenlegéből."
+        }
+      }
+    },
+    "footer": {
+      "estimatedFees": "Hálózati díjak"
+    }
+  },
+  "releaseNotes": {
+    "title": "Kiadási megjegyzések",
+    "version": "Ledger Live {{versionNb}}"
+  },
+  "distribution": {
+    "asset": "Kriptovaluta",
+    "price": "Ár",
+    "distribution": "Arány",
+    "amount": "Mennyiség",
+    "value": "Érték",
+    "showAll": "Összes megjelenítése",
+    "showLess": "Mutass kevesebbet",
+    "header": "Eszközátruházás ({{count}})"
+  },
+  "accountDistribution": {
+    "account": "Számla",
+    "distribution": "Átruházás",
+    "amount": "Mennyiség",
+    "value": "Érték",
+    "header": "Számlaátruházás ({{count}})"
+  },
+  "tron": {
+    "voting": {
+      "emptyState": {
+        "description": "Most már kaphatsz jutalmakat lefagyasztással és szavazással.",
+        "info": "Hogy működik a szavazás",
+        "votesDesc": "Add le szavazataid egy vagy több képviselő számára, hogy tárolási jutalmakat szerezz.",
+        "vote": "Szavazatok leadása",
+        "voteExisting": "Szavazatok kezelése"
+      },
+      "manageTP": "Eszközök kezelése",
+      "warnEarnRewards": "Szükséged van minimum {{amount}}, hogy jutalmakat kezdj kapni",
+      "claimRewards": "Jutalmak begyűjtése",
+      "nextRewardsDate": "A jutalmak begyűjthetők {{date}}",
+      "claimAvailableRewards": "{{amount}} begyűjtése",
+      "title": "Jutalmak begyűjtése",
+      "header": "Szavazatok",
+      "Amount": "Mennyiség",
+      "percentageTP": "%-a a leadott szavazatoknak",
+      "noRewards": "Nincs elérhető jutalom",
+      "remainingVotes": {
+        "title": "Még van {{amount}} szavazatod",
+        "description": "Leadhatod a fennmaradó szavazataid, hogy további jutalmakat szerezz",
+        "button": "Szavazz most"
+      },
+      "flow": {
+        "steps": {
+          "starter": {
+            "title": "Kapj tárolási jutalmakat",
+            "description": "Freeze TRX to earn rewards and still keep full security and control of your assets.",
+            "bullet": {
+              "delegate": "Delegált eszközeid a tieid maradnak.",
+              "access": "3 nap után olvaszthatod ki eszközeid.",
+              "ledger": "Fagyassz le és szavazz biztonságosan a Ledger eszközöddel."
+            },
+            "help": "Hogy működik a szavazás",
+            "button": {
+              "cta": "Folytatás"
+            },
+            "termsAndPrivacy": "Delegating your voting rights does not guarantee any rewards from your super representative."
+          }
+        }
+      }
+    },
+    "manage": {
+      "title": "Eszközök kezelése",
+      "freeze": {
+        "title": "Befagyasztás",
+        "description": "Fagyassz be TRX-et, hogy sávszélességhez, vagy energiához juss. Továbbá lehetőséged lesz Szuper Képviselőkre szavazni."
+      },
+      "unfreeze": {
+        "title": "Kiolvasztás",
+        "description": "Unfreeze TRX to have them back in your available balance. You will no longer earn rewards."
+      },
+      "vote": {
+        "title": "Szavazás",
+        "description": "Add le szavazataid a Szuper Képviselőkre hogy jutalmakat kapj.",
+        "steps": {
+          "vote": {
+            "title": "Szavazatok leadása",
+            "description": "Szavazz egy vagy több Szuper Képviselőre hogy elkezdj jutalmakat kapni.",
+            "footer": {
+              "doNotShowAgain": "Ne mutasd újra",
+              "next": "Szavazatok leadása"
+            },
+            "info": {
+              "message": "SR vagy Jelöltek?",
+              "superRepresentative": {
+                "title": "Szuper Képviselõk (SR)",
+                "description": "A szuper képviselők kulcsszerepet játszanak a TRON közösség irányításában, és az alapvető funkciók ellátásában, pl. blokkok generálása és könyvelése."
+              },
+              "candidates": {
+                "title": "Jelöltek",
+                "description": "127 egyént választott meg a teljes token-birtokos közösség szavazás útján. A szavazatok minden 6 órában egyszer frissülnek."
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "bitcoin": {
+    "inputSelected": "SELECTED",
+    "toSpend": "Coins to spend",
+    "toReturn": "Change to return",
+    "modalTitle": "Coin control",
+    "coincontrol": "Coin control",
+    "advanced": "Advanced options",
+    "ctaDisabled": "This account has no UTXO",
+    "whatIs": "What is coin selection?",
+    "rbf": "Allow the transaction to be replaced (Replace-By-Fee).",
+    "strategy": "Coin selection strategy",
+    "selected": "Coins selected for strategy",
+    "amount": "Amount to send:",
+    "replaceable": "replaceable",
+    "cannotSelect": {
+      "unconfirmed": "You cannot select coins from unconfirmed, replaceable transactions.",
+      "last": "You need at least one selected"
+    },
+    "pending": "pending",
+    "notEnoughCoins": "You have not selected enough coins to meet the amount to send.",
+    "pickUnconfirmedRBF": "Include coins from unconfirmed, replaceable transactions.",
+    "pickingStrategy": "UTXO picking strategy",
+    "pickingStrategyLabels": {
+      "DEEP_OUTPUTS_FIRST": "Oldest coins first (FIFO)",
+      "OPTIMIZE_SIZE": "Minimize fees (optimize size)",
+      "MERGE_OUTPUTS": "Minimize future fees (merge coins)"
+    }
+  },
+  "cosmos": {
+    "delegation": {
+      "emptyState": {
+        "description": "You can earn ATOM rewards by delegating your assets.",
+        "info": "How Delegation works",
+        "delegation": "Earn rewards"
+      },
+      "claimRewards": "Claim rewards",
+      "claimAvailableRewards": "Claim {{amount}}",
+      "header": "Delegation(s)",
+      "Amount": "Amount",
+      "noRewards": "No rewards available",
+      "delegate": "Add",
+      "undelegate": "Undelegate",
+      "redelegate": "Redelegate",
+      "redelegateDisabledTooltip": "You can redelegate again <0>{{days}}</0>",
+      "redelegateMaxDisabledTooltip": "You cannot redelegate more than <0>7</0> validators at a time",
+      "undelegateDisabledTooltip": "You cannot undelegate more than <0>7</0> validators at a time",
+      "reward": "Claim rewards",
+      "currentDelegation": "Delegated: <0>{{amount}}</0>",
+      "estYield": "est. yield",
+      "activeTooltip": "Delegated amounts generate rewards",
+      "inactiveTooltip": "Undelegated amounts do not generate rewards",
+      "minSafeWarning": "Not enough funds",
+      "flow": {
+        "title": "Delegate",
+        "steps": {
+          "starter": {
+            "description": "You may earn rewards by delegating your ATOM assets to a validator.",
+            "bullet": [
+              "You keep ownership of delegated assets",
+              "Delegate using your Ledger device",
+              "Assets will be available 21 days after undelegation"
+            ],
+            "warning": {
+              "description": "Choose your validator wisely: Part of your delegated assets may be irrevocably lost if the validator does not behave appropriately."
+            }
+          },
+          "validator": {
+            "title": "Validators",
+            "feesInfo": "Selected amounts are fees included"
+          },
+          "connectDevice": {
+            "title": "Device"
+          },
+          "confirmation": {
+            "title": "Confirmation",
+            "label": "Confirmation",
+            "success": {
+              "title": "You have successfully delegated your assets",
+              "text": "Your account balance will be updated when the blockchain confirms the transaction.",
+              "cta": "View details"
+            },
+            "pending": {
+              "title": "Broadcasting transaction..."
+            },
+            "broadcastError": "Your transaction may have failed. Please wait a moment then check the transaction history before trying again."
+          }
+        }
+      }
+    },
+    "claimRewards": {
+      "flow": {
+        "title": "Claim rewards",
+        "steps": {
+          "claimRewards": {
+            "title": "Rewards",
+            "compound": "Compound",
+            "claim": "Cash in",
+            "compoundOrClaim": "Compound or cash in",
+            "compoundDescription": "Rewards will be added to delegated amount",
+            "claimDescription": "Rewards will be added to the available balance",
+            "compoundInfo": "You earned <0>{{amount}}</0>. By clicking Continue, they will be claimed now and automatically delegated to the same validator.",
+            "claimInfo": "You earned <0>{{amount}}</0> from the validator below. By clicking Continue, they will be claimed now and automatically added to the available balance.",
+            "selectLabel": "Select a delegation"
+          },
+          "connectDevice": {
+            "title": "Device"
+          },
+          "confirmation": {
+            "title": "Confirmation",
+            "label": "Confirmation",
+            "success": {
+              "title": "Rewards cashed in successfully",
+              "titleCompound": "Rewards compounded successfully",
+              "text": "Your rewards were added to your available balance",
+              "textCompound": "Your rewards <0>{{amount}}</0> were automatically delegated to <0>{{validator}}</0>",
+              "cta": "View details"
+            },
+            "pending": {
+              "title": "Broadcasting transaction..."
+            },
+            "broadcastError": "Your transaction may have failed. Please wait a moment then check the transaction history before trying again."
+          }
+        }
+      }
+    },
+    "redelegation": {
+      "flow": {
+        "title": "Redelegate assets",
+        "steps": {
+          "starter": {
+            "title": "Redelegation",
+            "description": "Use redelegation to easily change from one validator to another. But if you change your mind again, you will then have to wait because redelegation triggers a 21-day timelock.",
+            "warning": "Choose your validator wisely: Part of your delegated assets may be irrevocably lost if the validator does not behave appropriately. You can have a maximum of <0>7 pending redelegations</0>.",
+            "howDelegationWorks": "How delegation works?"
+          },
+          "validators": {
+            "title": "Validators",
+            "currentDelegation": "Current delegation",
+            "newDelegation": "New delegation",
+            "chooseValidator": "Choose a validator",
+            "warning": "You will have to wait <0>21 days</0> to redelegate from the new validator, if you change your mind again",
+            "selectInfo": "Redelegate assets from one validator to another. When redelegating, your assets continue to generate rewards non-stop.",
+            "searchPlaceholder": "Search by name or address",
+            "redelegationAmount": "Redelegation amount"
+          },
+          "device": {
+            "title": "Device"
+          },
+          "confirmation": {
+            "title": "Confirmation",
+            "success": {
+              "title": "You have successfully redelegated your assets",
+              "text": "The redelegation will update once the blockchain has confirmed the transaction",
+              "cta": "View details"
+            },
+            "pending": {
+              "title": "Broadcasting transaction..."
+            },
+            "broadcastError": "Your transaction may have failed. Please wait a moment then check the transaction history before trying again."
+          }
+        }
+      }
+    },
+    "undelegation": {
+      "header": "Undelegation(s)",
+      "headerTooltip": "Available after the 21-day timelock",
+      "inactiveTooltip": "Undelegated amounts do not generate rewards.",
+      "flow": {
+        "title": "Undelegate assets",
+        "steps": {
+          "amount": {
+            "title": "Amount",
+            "subtitle": "The undelegation process takes <0>21 days</0> to finalize.",
+            "warning": "Rewards will be immediately cashed in. The undelegated amount will be back in the available balance after the <0>21-day timelock</0>.",
+            "fields": {
+              "validator": "Validator",
+              "amount": "Amount to undelegate"
+            }
+          },
+          "device": {
+            "title": "Device"
+          },
+          "confirmation": {
+            "title": "Confirmation",
+            "success": {
+              "title": "You have successfully undelegated your assets.",
+              "description": "<0>{{amount}}</0> were undelegated from <0>{{validator}}</0>",
+              "cta": "View details"
+            },
+            "broadcastError": "Your transaction may have failed. Please wait a moment then check the transaction history before trying again."
+          }
+        }
+      }
+    }
+  },
+  "algorand": {
+    "operationHasRewards": "Rewards earned",
+    "operationEarnedRewards": "You earned <0>{{amount}}</0> rewards.",
+    "operationDetailsAmountBreakDown": "{{initialAmount}} (<0>+{{reward}}</0> earned rewards)",
+    "optIn": {
+      "flow": {
+        "title": "Add ASA (Asset)",
+        "steps": {
+          "assets": {
+            "title": "ASA (Asset)",
+            "info": "Adding an asset requires sending a transaction with minimum fees. This will appear on your transaction history",
+            "selectLabel": "Choose an ASA (Asset)",
+            "disabledTooltip": "You already have this ASA (Asset) in your Algorand account"
+          },
+          "connectDevice": {
+            "title": "Device"
+          },
+          "confirmation": {
+            "title": "Confirmation",
+            "label": "Confirmation",
+            "success": {
+              "title": "{{token}} asset successfully added",
+              "text": "You can now receive and send <0>{{token}}</0> assets on your Algorand account.",
+              "cta": "View details"
+            },
+            "pending": {
+              "title": "Broadcasting transaction..."
+            },
+            "broadcastError": "Your transaction may have failed. Please wait a moment then check the transaction history before trying again."
+          }
+        }
+      }
+    },
+    "claimRewards": {
+      "header": "Rewards",
+      "tooltip": "Algorand rewards are distributed regularly and are claimed automatically when you do a transaction.",
+      "cta": "Claim rewards",
+      "rewardsDisabledTooltip": "You don’t have any rewards. Algorand rewards are claimed automatically when you do a transaction. Receive ALGO to start earning rewards.",
+      "flow": {
+        "title": "Claim rewards",
+        "steps": {
+          "starter": {
+            "title": "Earn rewards",
+            "description": "Receive Algorand rewards simply for holding Algorand control of your assets.",
+            "bullet": {
+              "delegate": "A minimum balance of 1 ALGO is required to receive rewards.",
+              "access": "Increase the account’s balance to increase rewards.",
+              "ledger": "Perform a transaction to or from the account to claim rewards."
+            },
+            "learnMore": "How Algorand rewards work?",
+            "button": {
+              "cta": "Receive Algo"
+            }
+          },
+          "info": {
+            "title": "Rewards",
+            "description": "Congratulations! You earned {{amount}}. Click on Continue to claim your rewards",
+            "info": "You will be prompted to generate an empty transaction to your account. This will add your current rewards to your balance at the minimal cost of the transaction fees."
+          },
+          "connectDevice": {
+            "title": "Device"
+          },
+          "confirmation": {
+            "title": "Confirmation",
+            "label": "Confirmation",
+            "success": {
+              "title": "Rewards successfully claimed!",
+              "text": "Your rewards were added to your available balance",
+              "cta": "View details"
+            },
+            "pending": {
+              "title": "Broadcasting transaction..."
+            },
+            "broadcastError": "Your transaction may have failed. Please wait a moment then check the transaction history before trying again."
+          }
+        }
+      }
+    }
+  },
+  "delegation": {
+    "title": "Érj el jutalmakat",
+    "header": "Delegálás",
+    "validator": "Érvényesítő",
+    "yield": "Kb. Hozam",
+    "address": "Cím",
+    "transactionID": "Tranzakció azonosító",
+    "value": "Érték",
+    "amount": "Mennyiség",
+    "delegated": "Delegated",
+    "completionDate": "Completion date",
+    "rewards": "Rewards",
+    "distribution": "Distribution",
+    "duration": "Tartam",
+    "durationJustStarted": "Most kezdődött",
+    "durationDays": "{{count}} nap",
+    "durationDays_plural": "{{count}} napok",
+    "howItWorks": "Hogyan működik a delegálás",
+    "delegationEarn": "Mostantól részesülhetsz {{name}} tárolási jutalmakban a számlád delegálásával.",
+    "earnRewards": "Kapj jutalmakat",
+    "overdelegated": "Túlhalmozott",
+    "status": "Status",
+    "flow": {
+      "steps": {
+        "starter": {
+          "title": "Kapj tárolási jutalmakat",
+          "description": "Delegate your Tezos account to a third-party validator to earn staking rewards and still keep full security and control of your assets",
+          "bullet": {
+            "delegate": "Delegált számláid a tieid maradnak.",
+            "access": "You can access your assets at any time.",
+            "ledger": "Delegálj biztonságosan a Ledger eszközöd segítségével."
+          },
+          "button": {
+            "cta": "Delegálj, hogy jutalmakat kapj"
+          }
+        },
+        "account": {
+          "title": "Számla delegálása",
+          "label": "Számla",
+          "toDelegate": "Delegálandó számla"
+        },
+        "summary": {
+          "title": "Számla delegálása",
+          "label": "Összegzés",
+          "toDelegate": "Delegálandó számla",
+          "toUndelegate": "Delegálás visszavonása erről a számláról",
+          "validator": "Érvényesítő",
+          "select": "Kiválaszt",
+          "yield": "Kb. Hozam {{amount}}",
+          "randomly": "Véletlenszerűen választott hitelesítő",
+          "termsAndPrivacy": "Delegating your voting rights does not guarantee any rewards from your validator."
+        },
+        "validator": {
+          "title": "Válassz hitelesítőt",
+          "description": "Választhatsz hitelesítőt a becsült jutalom mértékének összehasonlításával",
+          "customValidator": "Egyedi érvényesítő",
+          "providedBy": "Yield rates provided by <1><0>{{name}}</0></1>"
+        },
+        "custom": {
+          "title": "Egyedi megerősítő",
+          "text": "Kérlek, írd be az egyedi megerősítő címét a számlád delegálásához.",
+          "button": "Megerősítő használata"
+        },
+        "undelegate": {
+          "title": "Számlád delegálásának visszavonása"
+        },
+        "confirmation": {
+          "title": "Megerősítés",
+          "label": "Megerősítés",
+          "success": {
+            "title": "Delegálás elküldve",
+            "titleUndelegated": "Delegálás visszavonása",
+            "text": "Delegation transaction broadcasted successfully. You should earn your first rewards within around 40 days, depending on the validator.",
+            "textUndelegated": "Fiókod átruházása akkor fejeződik be, amikor a művelet megerősítésre kerül. A számlád bármikor újra átruházhatod."
+          },
+          "pending": {
+            "title": "Tranzakció elküldése..."
+          },
+          "broadcastError": "Your transaction may have failed. Please wait a moment then check the transaction history before trying again."
+        }
+      }
+    },
+    "banner": {
+      "title": "Kapj jutalmakat",
+      "text": "Tezos tárolási jutalmakat érhetsz el számlád delegálásával"
+    },
+    "contextMenu": {
+      "topUp": "Fogadj többet",
+      "redelegate": "Érvényesítő cseréje",
+      "stopDelegation": "Delegálás befejezése"
+    }
+  },
+  "asset": {
+    "notice": "Összefoglaló minden {{currency}} számláról"
+  },
+  "carousel": {
+    "hidden": {
+      "close": "Confirm",
+      "undo": "Show again",
+      "disclaimer": "This banner will not show up again until there is a new announcement"
+    }
+  },
+  "settings": {
+    "title": "Beállítások",
+    "discreet": "Váltás diszkrét módra",
+    "helpButton": "Help",
+    "tabs": {
+      "display": "Általános",
+      "currencies": "Kriptovaluták",
+      "rates": "Árak",
+      "help": "Segítség",
+      "about": "Rólunk",
+      "experimental": "Kísérleti funkciók",
+      "accounts": "Számlák"
+    },
+    "export": {
+      "accounts": {
+        "title": "Számlák exportálása",
+        "desc": "Add hozzá számláid a Ledger Live mobilhoz. Számláid csak a bloklánccal lesznek szonkronizálva, nem pedig a mobil és asztali alkalmazás között.",
+        "button": "Exportálás"
+      },
+      "operations": {
+        "title": "Műveleti előzmények",
+        "desc": "Mentsd egy CSV fileba a számláidon végrehajtott műveleteket a számítógépeden."
+      },
+      "modal": {
+        "button": "Kész",
+        "title": "Olvasd be a mobilra torténő exportáláshoz",
+        "listTitle": "A Ledger Live mobilalkalmazásban:",
+        "step1": "Nyomj a <1><0>+</0></1> gombra a <3><0>Számlák</0></3> menüpontban",
+        "step2": "Nyomj az <1><0>Asztali számlák importálására</0></1>",
+        "step3": "Olvasd be a <1><0>LiveQR-kódot</0></1>, míg a számláló el nem éri a 100%-ot"
+      }
+    },
+    "display": {
+      "desc": "Általános Ledger Live beállítások konfigurálása.",
+      "language": "Megjelenítés nyelve",
+      "languageDesc": "Állítsd be a Ledger Live-ban megjeleníteni kívánt nyelvet.",
+      "theme": "Téma",
+      "themeDesc": "Téma kiválasztása.",
+      "counterValue": "Ellenérték",
+      "counterValueDesc": "Válaszd ki az egyenleged, és a műveleteid mellett megjelenő valutát.",
+      "region": "Régió",
+      "regionDesc": "Choose your region to set the time zone of Ledger Live.",
+      "stock": "Regionális piaci mutató",
+      "stockDesc": "Choose Western to display market increases in blue or Eastern to display them in red.",
+      "carouselVisibility": "Carousel visibility",
+      "carouselVisibilityDesc": "Enable visibility of the carousel on Portfolio"
+    },
+    "currencies": {
+      "desc": "Select a crypto asset to edit its settings.",
+      "placeholder": "Ehhez az eszközhöz nincsenek beállítások",
+      "confirmationsNb": "Megerősítések száma",
+      "confirmationsNbDesc": "Állítsd be, hogy hány megerősített tranzakció szükséges ahhoz, hogy egy tranzakció megerősítettként legyen megjelenítve."
+    },
+    "profile": {
+      "password": "Jelszavas védelem",
+      "passwordDesc": "Set a password to secure the Ledger Live data on your computer, including account names, balances, transactions and public addresses.",
+      "passwordAutoLock": "Automatikus lezárás",
+      "passwordAutoLockDesc": "Automatically lock Ledger Live when inactive.",
+      "changePassword": "Jelszó megváltoztatása",
+      "softResetTitle": "Sütik törlése",
+      "softResetDesc": "Ledger Live sütik törlése a blokklánccal való szinkronizálás kényszerítésének érdekében.",
+      "softReset": "Törlés",
+      "hardResetTitle": "Ledger Live alaphelyzetbe állítása",
+      "hardResetDesc": "Erase all Ledger Live data stored on your computer, including your accounts, transaction histories and settings.",
+      "hardReset": "Alaphelyzetbe állítás",
+      "developerMode": "Fejlesztői mód",
+      "developerModeDesc": "Fejlesztői és testnet alkalmazások mutatása az Eszközkezelőben.",
+      "analytics": "Elemzések",
+      "analyticsDesc": "Enable analytics to help Ledger improve user experience. This includes clicks, page visits, redirections, actions (send, receive, lock, etc), end of page scrolls, (un)installing and app version, number of accounts, crypto assets and operations, session durations, the Ledger device type and firmware.",
+      "reportErrors": "Hibajelentések",
+      "reportErrorsDesc": "Automatically send reports to help Ledger improve its products.",
+      "launchOnboarding": "Eszköz beállítása",
+      "launchOnboardingDesc": "Set up a new device or restore an existing device. Accounts and settings are kept."
+    },
+    "about": {
+      "desc": "Alkalmazás információk, Felhasználási feltételek, és Adatvédelmi irányelvek."
+    },
+    "help": {
+      "desc": "Tudj meg többet a Ledger Live-ról, vagy kapj segítséget.",
+      "version": "Verzió",
+      "releaseNotesBtn": "Részletek",
+      "termsBtn": "Olvasás",
+      "faq": "Ledger Támogatás",
+      "faqDesc": "If you have a problem, get help using Ledger Live with your hardware wallet.",
+      "terms": "Felhasználási feltételek",
+      "termsDesc": "A Ledger Live használatával elfogadod a felhasználási feltételeinket.",
+      "privacy": "Adatvédelmi irányelvek",
+      "privacyDesc": "Refer to our Privacy Policy to learn what personal data we collect, why and how we use them."
+    },
+    "experimental": {
+      "desc": "Próbáld ki kísérleti funkcióinkat, és tudasd velünk, hogy mit gondolsz róluk",
+      "disclaimer": "These are experimental features we provide on an \"as is\" basis for our tech savvy community to test. They may change, break or be removed at any time. By enabling them, you agree to use them at your own risk."
+    },
+    "hardResetModal": {
+      "title": "Ledger Live alaphelyzetbe állítása",
+      "desc": "Reset Ledger Live to erase all settings and accounts on your computer. You can then choose your password and add your accounts back with your Ledger device. The private keys giving access to your crypto assets remain secure on your Ledger device and are backed up by your recovery phrase."
+    },
+    "softResetModal": {
+      "title": "Sütik törlése",
+      "desc": "Clearing the cache forces network resynchronization. Your settings and accounts are preserved. The private keys to access to your crypto assets remain secure on your Ledger device and Recovery sheet."
+    },
+    "resetFallbackModal": {
+      "title": "Felhasználói beavatkozás szükséges",
+      "part1": "Sütik mappa nem törölhető. Kérlek, töröld a mappát manuálisan:",
+      "part2": "Kattints a mappa megnyitása gombra, a(z) ",
+      "part3": "az alkalmazás be lesz zárva",
+      "part4": ", és manuálisan törli a \"sqlite\" mappát.",
+      "part5": "Ezután újra tudod indítani az alkalmazást a megszokott módon."
+    },
+    "removeAccountModal": {
+      "title": "Számla eltávolítása",
+      "desc": "This will not affect your crypto assets. Existing accounts can always be added again."
+    },
+    "openUserDataDirectory": {
+      "title": "Felhasználói adatok megtekintése",
+      "desc": "View the user data stored on your computer, including your accounts, caches and settings.",
+      "btn": "Megtekintés"
+    },
+    "repairDevice": {
+      "title": "Ledger eszközöd javítása",
+      "descSettings": "Use this to restore your Ledger device if it froze during a firmware update.",
+      "desc": "Kérlek, válaszd ki a Ledger eszközöd állapotát.",
+      "button": "Javítás"
+    },
+    "exportLogs": {
+      "title": "Naplók mentése",
+      "desc": "Saving Ledger Live logs may be needed for troubleshooting purposes.",
+      "btn": "Mentés"
+    },
+    "accounts": {
+      "hideEmptyTokens": {
+        "title": "Üres token számlák elrejtése",
+        "desc": "Hide token accounts with zero balance on the Accounts page."
+      },
+      "tokenBlacklist": {
+        "title": "Hidden tokens",
+        "desc": "You can hide tokens by going to the parent account then right-clicking on the token and selecting 'Hide token'.",
+        "count": "{{count}} token",
+        "count_plural": "{{count}} tokens"
+      },
+      "fullNode": {
+        "title": "Connect Bitcoin full node",
+        "desc": "Set up your Bitcoin full node to synchronize and send transactions without using Ledger’s explorers."
+      }
+    }
+  },
+  "password": {
+    "inputFields": {
+      "newPassword": {
+        "label": "Új jelszó"
+      },
+      "confirmPassword": {
+        "label": "Jelszó megerősítése"
+      },
+      "currentPassword": {
+        "label": "Jelenlegi jelszó"
+      }
+    },
+    "changePassword": {
+      "title": "Jelszavas védelem",
+      "subTitle": "Változtasd meg a jelszavad"
+    },
+    "setPassword": {
+      "title": "Jelszavas védelem",
+      "subTitle": "Set the password",
+      "desc": "Keep your password safe. Losing it means resetting Ledger Live and adding the accounts again."
+    },
+    "disablePassword": {
+      "title": "Jelszavas védelem kikapcsolása",
+      "desc": "A Ledger Live adatai titkosítatlanul lesznek tárolva a számítógépeden. Beleértve a számlák neveit, tranzakciókat, és nyilvános címeket."
+    }
+  },
+  "update": {
+    "downloadInProgress": "Frissítés letöltése...",
+    "downloadProgress": "{{progress}}% letöltve",
+    "checking": "Frissítés ellenőrzése...",
+    "checkSuccess": "A frissítés készen áll a telepítésre",
+    "quitAndInstall": "Telepítés most",
+    "updateAvailable": "Update to Ledger Live version {{version}} is available",
+    "error": "Hiba történt a frissítés során. Kérlek, töltsd le újra",
+    "reDownload": "Letöltés újra",
+    "nightlyWarning": "This version cannot auto-update. Please install the latest version manually",
+    "downloadNow": "Download update"
+  },
+  "crash": {
+    "title": "Valami hiba történt",
+    "description": "Please check our support articles for possible solutions. If the problem persists, save the logs using the button below and provide them to Ledger Support.",
+    "troubleshooting": "Kattints ide a lehetséges megoldásokért",
+    "restart": "Újraindítás",
+    "logs": "Naplók mentése",
+    "dataFolder": "Felhasználói adatok megtekintése"
+  },
+  "exportOperationsModal": {
+    "title": "Műveleti előzmények",
+    "desc": "Válaszd ki, hogy mely számlák műveleti előzményeit szeretnéd menteni",
+    "descSuccess": "The CSV file of your operation history was saved successfully in the selected folder",
+    "titleSuccess": "Operation history saved successfully",
+    "cta": "Mentés",
+    "ctaSuccess": "Kész",
+    "noAccounts": "Nincsenek exportálható számlák",
+    "selectedAccounts": "Accounts to be included",
+    "selectedAccounts_plural": "Accounts to be included ({{count}})"
+  },
+  "language": {
+    "system": "Használja a rendszer nyelvét",
+    "switcher": {
+      "en": "English",
+      "fr": "French",
+      "ru": "Russian",
+      "es": "Spanish",
+      "zh": "Chinese"
+    }
+  },
+  "theme": {
+    "system": "Select the system theme",
+    "light": "Világos",
+    "dusk": "Szürkés",
+    "dark": "Sötét"
+  },
+  "onboarding": {
+    "drawers": {
+      "pinHelp": {
+        "title": "Secure your PIN code",
+        "intro": "During the setup process you choose a PIN code.",
+        "rules": {
+          "1": "<0>Always</0> choose a PIN code yourself.",
+          "2": "<0>Always</0> enter your PIN code out of sight.",
+          "3": "You can change your PIN code if needed.",
+          "4": "Three wrong PIN code entries in a row will reset the device.",
+          "5": "<0>Never</0> use an easy PIN code like 0000, 123456, or 55555555.",
+          "6": "<0>Never</0> share your PIN code with someone else. Not even with Ledger.",
+          "7": "<0>Never</0> use a PIN code you did not choose yourself.",
+          "8": "<0>Never</0> store your PIN code on a computer or phone."
+        }
+      },
+      "recoverySeed": {
+        "title1": "How does a recovery phrase work?",
+        "paragraph1": "Your recovery phrase works like a unique master key. Your Ledger device uses it to calculate private keys for every crypto asset you own.",
+        "paragraph2": "To restore access to your crypto, any wallet can calculate the same private keys from your recovery phrase.",
+        "link": "More about the recovery phrase",
+        "title2": "What happens if I lose access to my Nano?",
+        "paragraph3": "Don't worry and follow these steps:",
+        "points": {
+          "1": "Get a new hardware wallet.",
+          "2": "Select “Restore recovery phrase on a new device” in the Ledger app",
+          "3": "Enter your recovery phrase on your new device to restore access to your crypto."
+        }
+      },
+      "whereToHide": {
+        "title": "Where should I keep my recovery phrase?",
+        "points": {
+          "1": "<0>NEVER</0> enter it on a computer, smartphone or any other device. Don't take a picture of it.",
+          "2": "<0>NEVER</0> share your 24 words with anyone.",
+          "3": "<0>ALWAYS</0> store it in a secure place, out of sight.",
+          "4": "Ledger will never ask for your recovery phrase.",
+          "5": "If any person or application asks for it, assume it is a scam!"
+        }
+      }
+    },
+    "alerts": {
+      "deviceError": {
+        "title": "Something went wrong, please reconnect device",
+        "descr": "An action was already pending on the your Nano. Please deny or reconnect.",
+        "retry": "Retry"
+      },
+      "genuineCheck": {
+        "title": "Genuine check",
+        "descr": "Please don’t turn off your Nano and allow Ledger",
+        "info": "This step is meant to ensure that your Nano is authentic and was not hacked."
+      },
+      "genuineCheckSuccess": {
+        "title": "All good!",
+        "descr": "Your device is genuine and ready to use with Ledger app",
+        "continue": "Continue"
+      },
+      "genuineCheckError": {
+        "title": "Your Nano’s authenticity couldn’t be verified...",
+        "descr": "We recommend you contact Ledger Support to resolve this issue. ",
+        "contactSupport": "Contact Ledger Support"
+      },
+      "languageIncomplete": {
+        "title": "Get started in {{language}}",
+        "descr": "We are introducing additional languages  in order to help your onboarding with Ledger. Please be aware that the rest of the Ledger experience is currently only available in English.",
+        "gotIt": "Got it"
+      },
+      "beCareful": {
+        "title": "Please be careful",
+        "descr": "Make sure you follow the instructions on this app at every step of the process.",
+        "gotIt": "Got it"
+      },
+      "useLedgerSeeds": {
+        "title": "We recommend Ledger recovery phrases only",
+        "descr": "Ledger cannot guarantee the security of external recovery phrases. We recommend setting up your Nano as a new device if your recovery phrase was not generated by a Ledger.",
+        "gotIt": "Got it"
+      }
+    },
+    "screens": {
+      "welcome": {
+        "title": "Welcome to Ledger",
+        "description": "Safely manage your crypto from your computer.",
+        "cta": "Get started",
+        "noDevice": "No device? <0>Buy a Ledger Nano X</0>",
+        "languageWarning": {
+          "title": "Get started in {{language}}",
+          "desc": "We are introducing additional languages  in order to help your onboarding with Ledger. Please be aware that the rest of the Ledger experience is currently only available in English.",
+          "cta": "Got it"
+        }
+      },
+      "selectDevice": {
+        "title": "What's your device?"
+      },
+      "selectUseCase": {
+        "greetings": "Hello!",
+        "hasNoRecovery": "First time using your Nano?",
+        "hasRecovery": "Already have a recovery phrase?",
+        "separator": "or",
+        "options": {
+          "1": {
+            "heading": "First use",
+            "title": "Set up a new Nano",
+            "description": "Let’s start and set up your device!"
+          },
+          "2": {
+            "heading": "Connect device",
+            "title": "Connect your Nano",
+            "description": "Is your device already set up? Connect it to the app!"
+          },
+          "3": {
+            "heading": "Restore device",
+            "title": "Restore your recovery phrase on a new device",
+            "description": "Use an existing recovery phrase to restore your private keys on a new Nano!"
+          }
+        }
+      },
+      "tutorial": {
+        "steps": {
+          "getStarted": "Get started",
+          "pinCode": "Pin code",
+          "recoveryPhrase": "Recovery phrase",
+          "hideRecoveryPhrase": "Hide recovery phrase",
+          "pairNano": "Connect nano"
+        },
+        "screens": {
+          "importYourRecoveryPhrase": {
+            "title": "Restore from recovery phrase",
+            "paragraph1": "Restore your Nano from your recovery phrase to restore, replace or back up your Ledger hardware wallet.",
+            "paragraph2": "Your Nano will restore your private keys and you will be able to access and manage your crypto.",
+            "buttons": {
+              "next": "OK, I’m ready!",
+              "prev": "Previous step",
+              "help": "Need help"
+            }
+          },
+          "howToGetStarted": {
+            "title": "The best way to get you started:",
+            "rules": {
+              "1": "Plan 30 minutes and take your time.",
+              "2": "Grab a pen to write with.",
+              "3": "Stay alone, and choose a safe and quiet environment."
+            },
+            "buttons": {
+              "next": "OK, I’m ready!",
+              "prev": "Previous step"
+            }
+          },
+          "deviceHowTo": {
+            "turnOn": {
+              "title": "Turn on Nano",
+              "descr": "Connect your device to your computer with the USB cable."
+            },
+            "browse": {
+              "title": "Browse",
+              "descr": "Learn how to interact with your device by reading the on-screen instructions."
+            },
+            "select": {
+              "title": "Select “Set up as new device”",
+              "descr": "Press both buttons simultaneously to validate the selection."
+            },
+            "follow": {
+              "title": "Follow instructions",
+              "descr": "Come back here to follow instructions on your PIN code."
+            },
+            "buttons": {
+              "next": "Next step",
+              "prev": "Previous step",
+              "help": "Need help"
+            }
+          },
+          "deviceHowTo2": {
+            "turnOn": {
+              "title": "Turn on Nano",
+              "descr": "Connect your device to your computer with the USB cable."
+            },
+            "browse": {
+              "title": "Browse",
+              "descr": "Learn how to interact with your device by reading the on-screen instructions."
+            },
+            "select": {
+              "title": "Select “Enter your recovery phrase”",
+              "descr": "Press both buttons simultaneously to validate the selection."
+            },
+            "follow": {
+              "title": "Follow instructions",
+              "descr": "Come back here to follow instructions on your PIN code."
+            },
+            "buttons": {
+              "next": "Next step",
+              "prev": "Previous step",
+              "help": "Need help"
+            }
+          },
+          "pinCode": {
+            "title": "PIN code",
+            "paragraph": "Your PIN code is the first layer of security. It physically secures access to your private key and your Nano. Your PIN code must be 4 to 8 digits long.",
+            "disclaimer": "I understand that I must choose my PIN code myself and keep it private.",
+            "buttons": {
+              "next": "Set up PIN code",
+              "prev": "Previous step",
+              "help": "Need help"
+            }
+          },
+          "quizSuccess": {
+            "title": "Already a pro!",
+            "paragraph": "You are ready to safely manage your crypto. Only one quick step left!",
+            "buttons": {
+              "next": "Next step",
+              "prev": "Previous step",
+              "help": "Need help"
+            }
+          },
+          "quizFailure": {
+            "title": "You will soon become a pro...",
+            "paragraph": "Don’t worry, Ledger is here to guide you through your journey. You will soon feel extra comfortable about your crypto safety. Only one quick step left!",
+            "buttons": {
+              "next": "Next step",
+              "prev": "Previous step"
+            }
+          },
+          "pinCodeHowTo": {
+            "setUp": {
+              "title": "Choose PIN code",
+              "descr": "Press the left or right button to change digits. Press both buttons to validate a digit. Select <0></0> to confirm your PIN code. Select <1></1> to erase a digit."
+            },
+            "confirm": {
+              "title": "Confirm PIN code",
+              "descr": "Enter your PIN code again to confirm it."
+            },
+            "buttons": {
+              "next": "Next step",
+              "prev": "Previous step",
+              "help": "Need help"
+            }
+          },
+          "existingRecoveryPhrase": {
+            "title": "Enter your recovery phrase",
+            "paragraph1": "Your recovery phrase is the secret list of words that you backed up when you first set up your wallet.",
+            "paragraph2": "Ledger does not keep a copy of your recovery phrase.",
+            "disclaimer": "I understand that if I lose my recovery phrase, I will not be able to access my crypto in case I lose access to my Nano.",
+            "buttons": {
+              "next": "Enter recovery phrase",
+              "prev": "Previous step",
+              "help": "Need help"
+            }
+          },
+          "useRecoverySheet": {
+            "takeYourRecoverySheet": {
+              "title": "Take your recovery sheet",
+              "descr": "Grab a blank Recovery sheet, included with your Nano. Please reach out to Ledger Support if the Recovery sheet did not come blank."
+            },
+            "writeDownWords": {
+              "title": "Write down all words",
+              "descr": "Write Word #1 displayed on your Nano in position 1 of your Recovery sheet. Then press right on your Nano to display Word #2 and write it down in position 2. Repeat the process for all words while carefully respecting the order and spelling. Press left on your Nano to check for any mistakes."
+            },
+            "buttons": {
+              "next": "Next step",
+              "prev": "Previous step",
+              "help": "Need help"
+            }
+          },
+          "newRecoveryPhrase": {
+            "title": "Recovery phrase",
+            "paragraph1": "Your recovery phrase is a secret list of 24 words that backs up your private keys.",
+            "paragraph2": "Your Nano generates a unique recovery phrase. Ledger does not keep a copy of it.",
+            "disclaimer": "I understand that if I lose this recovery phrase, I will not be able to access my crypto in case I lose access to my Nano.",
+            "buttons": {
+              "next": "Recovery phrase",
+              "prev": "Previous step",
+              "help": "Need help"
+            }
+          },
+          "recoveryHowTo": {
+            "grabRecovery": {
+              "title": "Grab your recovery phrase"
+            },
+            "selectLength": {
+              "title": "Select recovery phrase length",
+              "descr": "Your recovery phrases can have 12, 18 or 24 words. You must enter all words to access your crypto."
+            },
+            "enterWord": {
+              "title": "Enter Word #1...",
+              "descr": "Enter the first letters of Word #1 by selecting them with the right or left button. Press both buttons to validate each letter."
+            },
+            "validateWord": {
+              "title": "Validate Word #1...",
+              "descr": "Choose Word #1 from the suggestions. Press both buttons to validate."
+            },
+            "andNext": {
+              "title": "Repeat for all words!"
+            },
+            "buttons": {
+              "next": "Next step",
+              "prev": "Previous step",
+              "help": "Need help"
+            }
+          },
+          "recoveryHowTo3": {
+            "reEnterWord": {
+              "title": "Confirm your recovery phrase",
+              "descr": "Scroll through the words until you find Word #1 by pressing the right button. Validate by pressing both buttons."
+            },
+            "repeat": {
+              "title": "Repeat for all words!"
+            },
+            "buttons": {
+              "next": "Next step",
+              "prev": "Previous step",
+              "help": "Need help"
+            }
+          },
+          "genuineCheck": {
+            "plugUSBCable": {
+              "title": "Connect USB cable",
+              "descr": "Connect the USB cable and enter your PIN Code on the device"
+            },
+            "success": {
+              "title": "All good!",
+              "desc": "Your Ledger {{deviceName}} is genuine and ready to use with Ledger Live"
+            },
+            "buttons": {
+              "next": "Continue",
+              "prev": "Previous step",
+              "help": "Need help"
+            }
+          },
+          "hideRecoveryPhrase": {
+            "title": "Hide your recovery phrase",
+            "paragraph": "Your recovery phrase is your last chance to access your crypto if you cannot use your Nano. You must keep it in a safe place.",
+            "keepItOffline": "Enter these words on a hardware wallet only, not on computers or smartphones.",
+            "neverShowToAnyone": "Never share your 24 words with anyone, not even with Ledger.",
+            "buttons": {
+              "next": "OK, I'm done!",
+              "prev": "Previous step",
+              "help": "Need help",
+              "learn": "Learn how to hide it"
+            }
+          },
+          "pairMyNano": {
+            "title": "Genuine check",
+            "paragraph": "We'll verify whether your Nano is genuine. This should be quick and easy!",
+            "buttons": {
+              "next": "Check my Nano",
+              "prev": "Previous step",
+              "help": "Need help"
+            }
+          },
+          "quizzSuccess": {
+            "title": "Already a pro!",
+            "paragraph": "You are ready to safely manage your crypto. Only one quick step left!",
+            "buttons": {
+              "next": "Next step",
+              "prev": "Previous step"
+            }
+          },
+          "quizzFail": {
+            "title": "You will soon become a pro...",
+            "paragraph1": "Don’t worry, Ledger is here to guide you through your journey. You will soon feel extra comfortable about your crypto safety.",
+            "paragraph2": "Only one quick step left!",
+            "buttons": {
+              "next": "Next step",
+              "prev": "Previous step"
+            }
+          },
+          "connectYourDevice": {
+            "plugUSBCable": {
+              "title": "Connect USB cable",
+              "descr": "Connect the cable and enter the PIN Code on your device",
+              "buttons": {
+                "next": "Continue",
+                "prev": "Previous step"
+              }
+            }
+          }
+        }
+      }
+    },
+    "pedagogy": {
+      "heading": "basics",
+      "screens": {
+        "accessYourCoins": {
+          "title": "Access your crypto",
+          "description": "Your crypto assets are stored on the blockchain. You need a private key to access and manage them."
+        },
+        "ownYourPrivateKey": {
+          "title": "Own your private key",
+          "description": "Your private key is stored within your Nano. You must be the only one to own it to be in control of your money."
+        },
+        "stayOffline": {
+          "title": "Stay offline",
+          "description": "Your Nano works as a \"cold storage\" wallet. This means that it never exposes your private key online, even when using the app."
+        },
+        "validateTransactions": {
+          "title": "Validate transactions",
+          "description": "Ledger Live allows you to buy, sell, manage, exchange and earn crypto while remaining protected. You will validate every crypto transaction with your Nano."
+        },
+        "setUpNanoWallet": {
+          "title": "Let’s set up your Nano!",
+          "description": "We'll start by setting up your Nano security.",
+          "CTA": "Let’s do this!"
+        }
+      }
+    },
+    "quizz": {
+      "heading": "Quiz",
+      "title": "Now game on!",
+      "descr": "Answer 3 simple questions to avoid common misconceptions about your hardware wallet.",
+      "buttons": {
+        "start": "Let’s take the quiz",
+        "next": "Next question",
+        "finish": "Finish quiz"
+      },
+      "questions": {
+        "1": {
+          "text": "As a Ledger user, my crypto is stored:",
+          "answers": {
+            "1": "On my Nano",
+            "2": "On the blockchain"
+          },
+          "results": {
+            "success": {
+              "title": "Congrats!",
+              "text": "Your crypto is always stored on the blockchain. Your hardware wallet only holds your private key, which gives you access to your crypto."
+            },
+            "fail": {
+              "title": "Incorrect!",
+              "text": "Your crypto is always stored on the blockchain. Your hardware wallet only holds your private key, which gives you access to your crypto."
+            }
+          }
+        },
+        "2": {
+          "text": "If my recovery phrase is no longer secure or private...",
+          "answers": {
+            "1": "No problem, Ledger can send me a copy",
+            "2": "My crypto is no longer safe and I need to transfer them to a secure place"
+          },
+          "results": {
+            "success": {
+              "title": "Congrats!",
+              "text": "Anyone who knows your recovery phrase can steal your crypto assets. \nIf you lose it, you must quickly transfer your crypto to a secure place."
+            },
+            "fail": {
+              "title": "Incorrect!",
+              "text": "Anyone who knows your recovery phrase can steal your crypto assets. \nIf you lose it, you must quickly transfer your crypto to a secure place."
+            }
+          }
+        },
+        "3": {
+          "text": "When I connect my Nano to the Ledger app, my private key is...",
+          "answers": {
+            "1": "Still offline",
+            "2": "Briefly connected to the internet"
+          },
+          "results": {
+            "success": {
+              "title": "Congrats!",
+              "text": "Your private key always remains offline in your hardware wallet. Even when connected to your Nano, the Ledger app cannot access your private key. You must physically authorize every transaction on your device."
+            },
+            "fail": {
+              "title": "Incorrect!",
+              "text": "Your private key always remains offline in your hardware wallet. Even when connected to your Nano, the Ledger app cannot access your private key. You must physically authorize every transaction on your device."
+            }
+          }
+        }
+      }
+    }
+  },
+  "connectTroubleshooting": {
+    "desc": "Nehezen tudod csatlakoztatni a készüléked?"
+  },
+  "TransactionConfirm": {
+    "title": "Please confirm the operation on your device to finalize it",
+    "warning": "Always verify the address displayed on your device exactly matches the one given by the {{recipientWording}}",
+    "secureContract": "Verify the deposit details on your device before sending it. The contract address is provided securely so you don’t have to verify it.",
+    "warningWording": {},
+    "titleWording": {
+      "send": "Please confirm on your device to finalize the operation",
+      "claimReward": "Please confirm on your device to finalize the operation",
+      "freeze": "Please confirm on your device to finalize the operation",
+      "unfreeze": "Please confirm on your device to finalize the operation",
+      "vote": "Please confirm on your device to finalize the operation",
+      "delegate": "Please confirm on your device to finalize the operation",
+      "undelegate": "Please confirm on your device to finalize the operation",
+      "redelegate": "Please confirm on your device to finalize the operation",
+      "claimRewardCompound": "Please confirm on your device to finalize the operation"
+    },
+    "recipientWording": {
+      "send": "fogadó",
+      "delegate": "megerősítő",
+      "undelegate": "megerősítő",
+      "claimReward": "rewards recipient",
+      "optIn": "recipient"
+    },
+    "votes": "Szavazatok ({{count}})"
+  },
+  "RecipientField": {
+    "placeholder": "Írd be a(z) {{currencyName}} címet"
+  },
+  "Terms": {
+    "title": "Felhasználási feltételek",
+    "read": "Olvasd el a Felhasználási feltételeket",
+    "switchLabel": "I have read and agree with the <0>Terms of Use and Privacy Policy</0>",
+    "switchLabelLoss": "I understand that if I lose this recovery phrase, I will not be able to access my crypto in case I lose access to Nano.",
+    "cta": "Enter Ledger app"
+  },
+  "families": {
+    "stellar": {
+      "memo": "Memo",
+      "memoType": {
+        "MEMO_TEXT": "Memo Text",
+        "NO_MEMO": "No Memo",
+        "MEMO_ID": "Memo ID",
+        "MEMO_HASH": "Memo Hash",
+        "MEMO_RETURN": "Memo Return"
+      },
+      "whatsMemo": "What is a memo?",
+      "memoWarningText": "When using a Memo, carefully verify the type used with the recipient"
+    },
+    "cosmos": {
+      "memo": "Memo",
+      "memoPlaceholder": "Optional",
+      "memoWarningText": "When using a memo, carefully check the information with the recipient"
+    }
+  },
+  "errors": {
+    "generic": {
+      "title": "{{message}}",
+      "description": "Something went wrong. Please retry or contact Ledger Support."
+    },
+    "AccountAwaitingSendPendingOperations": {
+      "title": "There is a pending operation for this account.",
+      "description": "Wait for the operation to go through."
+    },
+    "AccountNameRequired": {
+      "title": "Egy számlanév szükséges",
+      "description": "Please enter an account name"
+    },
+    "AccountNotSupported": {
+      "title": "Számla nem támogatott.",
+      "description": "Kérlek, próbáld meg újra, vagy lépj kapcsolatba az ügyféltámogatással ({{reason}})"
+    },
+    "AlgorandASANotOptInInRecipient": {
+      "title": "Recipient account has not opted in the selected ASA."
+    },
+    "AmountRequired": {
+      "title": "Amount required"
+    },
+    "NoAccessToCamera": {
+      "title": "Please ensure your system has a camera, that it is not in use by another application and that Ledger Live has permission to use it.",
+      "description": ""
+    },
+    "ClaimRewardsFeesWarning": {
+      "title": "The rewards are smaller than the estimated fees to claim them",
+      "description": ""
+    },
+    "CompoundLowerAllowanceOfActiveAccountError": {
+      "title": "You cannot reduce the amount approved while having an active deposit."
+    },
+    "CosmosBroadcastCodeInternal": {
+      "title": "Something went wrong (Error #1)",
+      "description": "Please contact Ledger Support"
+    },
+    "CosmosBroadcastCodeTxDecode": {
+      "title": "Something went wrong (Error #2)",
+      "description": "Please contact Ledger Support"
+    },
+    "CosmosBroadcastCodeInvalidSequence": {
+      "title": "Invalid sequence",
+      "description": "Please try the operation again"
+    },
+    "CosmosBroadcastCodeUnauthorized": {
+      "title": "Unauthorized signature",
+      "description": "This account is not authorized to sign this transaction"
+    },
+    "CosmosBroadcastCodeInsufficientFunds": {
+      "title": "Insufficient funds",
+      "description": "Make sure the account used has enough funds and try again"
+    },
+    "CosmosBroadcastCodeUnknownRequest": {
+      "title": "Something went wrong (Error #6)",
+      "description": "Please contact Ledger Support"
+    },
+    "CosmosBroadcastCodeInvalidAddress": {
+      "title": "Invalid address",
+      "description": "Please check the address and try again"
+    },
+    "CosmosBroadcastCodeInvalidPubKey": {
+      "title": "Something went wrong (Error #8)",
+      "description": "Please contact Ledger Support"
+    },
+    "CosmosBroadcastCodeUnknownAddress": {
+      "title": "Unknown address",
+      "description": "Please check the address and try again"
+    },
+    "CosmosBroadcastCodeInsufficientCoins": {
+      "title": "Insufficient coins",
+      "description": "Make sure the account used has enough funds and try again"
+    },
+    "CosmosBroadcastCodeInvalidCoins": {
+      "title": "Something went wrong (Error #11)",
+      "description": "Please contact Ledger Support"
+    },
+    "CosmosBroadcastCodeOutOfGas": {
+      "title": "Something went wrong (Error #12)",
+      "description": "Please contact Ledger Support"
+    },
+    "CosmosBroadcastCodeMemoTooLarge": {
+      "title": "The Memo field is too long",
+      "description": "Please reduce the size of the memo text and try again"
+    },
+    "CosmosBroadcastCodeInsufficientFee": {
+      "title": "Something went wrong (Error #14)",
+      "description": "Please contact Ledger Support"
+    },
+    "CosmosBroadcastCodeTooManySignatures": {
+      "title": "Something went wrong (Error #15)",
+      "description": "Please contact Ledger Support"
+    },
+    "CosmosBroadcastCodeGasOverflow": {
+      "title": "Something went wrong (Error #16)",
+      "description": "Please contact Ledger Support"
+    },
+    "CosmosBroadcastCodeNoSignatures": {
+      "title": "Something went wrong (Error #17)",
+      "description": "Please contact Ledger Support"
+    },
+    "CurrencyNotSupported": {
+      "title": "{{currencyName}} nem támogatott",
+      "description": "This crypto asset is not yet supported. Please contact Ledger Support."
+    },
+    "DeviceNotGenuine": {
+      "title": "Lehetséges, hogy nem eredeti",
+      "description": "Request assistance from Ledger Support"
+    },
+    "DeviceGenuineSocketEarlyClose": {
+      "title": "Sajnáljuk, próbáld meg újra (genuine-close)",
+      "description": null
+    },
+    "DeviceInOSUExpected": {
+      "title": "Sajnáljuk, a frissítés sikertelen",
+      "description": "Kérlek, próbáld meg újra, vagy vedd fel a kapcsolatot a Ledger ügyfélszolgálattal"
+    },
+    "DeviceHalted": {
+      "title": "Kérlek, indítsd újra a Ledger eszközöd, és próbáld meg újra",
+      "description": "An unexpected error occurred. Please try again"
+    },
+    "DeviceSocketFail": {
+      "title": "Kérlek, indítsd újra a Ledger eszközöd, és próbáld meg újra",
+      "description": "An unexpected error occurred. Please try again. ({{message}})"
+    },
+    "DeviceSocketNoBulkStatus": {
+      "title": "Hoppá, csatlakozás sikertelen",
+      "description": "Kérlek, próbáld meg újra"
+    },
+    "DisconnectedDevice": {
+      "title": "Hoppá, az eszköz csatlakozása megszűnt",
+      "description": "Kérlek, próbáld meg újra"
+    },
+    "DisconnectedDeviceDuringOperation": {
+      "title": "Hoppá, az eszköz lecsatlakoztatva",
+      "description": "The connection to the device was lost during an operation. Please try again"
+    },
+    "EnpointConfig": {
+      "title": "Érvénytelen végpont",
+      "description": "Kérlek, adj meg egy érvényes végpontot"
+    },
+    "FeeEstimationFailed": {
+      "title": "Sajnáljuk, a díjbecslés sikertelen",
+      "description": "Próbálj meg beállítani egyedi díjat (státusz: {{status}})"
+    },
+    "FirmwareOrAppUpdateRequired": {
+      "title": "Szoftver vagy alkalmazás frissítés szükséges",
+      "description": "Please use the Manager to uninstall all apps then check if a firmware update is available before reinstalling them"
+    },
+    "FirmwareNotRecognized": {
+      "title": "Az Eszközszoftver nem lett felismerve",
+      "description": "Kérlek, lépj kapcsolatba a Ledger ügyféltámogatással"
+    },
+    "HardResetFail": {
+      "title": "Hoppá, nem sikerült az újraindítás",
+      "description": "Please try again or contact Ledger Support if in doubt"
+    },
+    "LatestMCUInstalledError": {
+      "title": "Hoppá, nincs mit frissíteni",
+      "description": "Feleslegesen megpróbáltad frissíteni az eszköz mikrovezérlőjét. Vedd fel a kapcsolatot a Ledger ügyfélszolgálatával, ha problémád támadt az eszközzel."
+    },
+    "LedgerAPI4xx": {
+      "title": "{{message}}",
+      "description": "Kérlek, ellenőrizd a kapcsolatot, és próbáld meg újra, vagy lépj kapcsolatba a Ledger ügyfélszolgálatával."
+    },
+    "LedgerAPI5xx": {
+      "title": "Sajnáljuk, próbáld meg újra.",
+      "description": "The server could not handle your request. Please try again later or contact Ledger Support. {{message}}"
+    },
+    "LedgerAPINotAvailable": {
+      "title": "Sajnáljuk, a(z) {{currencyName}} szolgáltatások nem elérhetőek",
+      "description": "Kérlek, próbáld meg újra, vagy vedd fel a kapcsolatot a Ledger ügyfélszolgálatával"
+    },
+    "ManagerAppAlreadyInstalled": {
+      "title": "Hoppá, ez már telepítve van",
+      "description": "Ellenőrizd az eszközöd, hogy lásd, mely alkalmazások vannak már telepítve"
+    },
+    "ManagerAppDepInstallRequired": {
+      "title": "{{dependency}} alkalmazás szükséges",
+      "description": "If the {{dependency}} app is already installed, please reinstall it with the latest version"
+    },
+    "ManagerAppDepUninstallRequired": {
+      "title": "Sajnáljuk, ez az alkalmazás szükséges",
+      "description": "Először el kell távolítanod az összes alkalmazást amelyek szükségesek a(z) {{appName}} alkalmazáshoz"
+    },
+    "ManagerDeviceLocked": {
+      "title": "Your device is locked",
+      "description": "Please unlock it"
+    },
+    "ManagerFirmwareNotEnoughSpace": {
+      "title": "Távolítsd el az összes alkalmazást az eszközödről",
+      "description": "The private keys to access your crypto assets will stay safe on your device and must be backed up on your Recovery sheet."
+    },
+    "ManagerNotEnoughSpace": {
+      "title": "Sajnáljuk, nincs elegendő tárhely",
+      "description": "Uninstall some apps to free up space. The private keys to access your crypto assets will stay safe on your device."
+    },
+    "ManagerQuitPage": {
+      "install": {
+        "title": "Alkalmazás telepítési folyamat befejezése?",
+        "description": "Quitting the Manager will terminate the app installation. Please finish the installation to install the apps in the queue.",
+        "stay": "Telepítés befejezése"
+      },
+      "uninstall": {
+        "title": "Folyamatban lévő alkalmazás törlés befejezése?",
+        "description": "Quitting the Manager will terminate the app uninstallations in progress.",
+        "stay": "Törlés befejezése"
+      },
+      "update": {
+        "title": "Folyamatban lévő alkalmazás frissítések megszakítása?",
+        "description": "Quitting the Manager will terminate the app updates in progress.",
+        "stay": "Frissítés befejezése"
+      },
+      "quit": "Eszközkezelő bezárása"
+    },
+    "ManagerUninstallBTCDep": {
+      "title": "Sajnáljuk, ez az alkalmazás szükséges",
+      "description": "A Bitcoin vagy Ethereum alkalmazást utoljára távolítsd el"
+    },
+    "NetworkDown": {
+      "title": "Hoppá, úgy tűnik nincs internetkapcsolat",
+      "description": "Kérlek, ellenőrizd az internetkapcsolatod"
+    },
+    "NoAddressesFound": {
+      "title": "Sorry, no accounts were found",
+      "description": "Something went wrong with the address calculation, try again or contact Ledger Support"
+    },
+    "NotEnoughBalance": {
+      "title": "Hoppá, fedezethiány",
+      "description": "Make sure the account used has enough funds"
+    },
+    "NotEnoughBalanceBecauseDestinationNotCreated": {
+      "title": "A fogadó cím inaktív. Küldj minimum {{minimalAmount}} mennyiséget az aktiválásához"
+    },
+    "NotEnoughGas": {
+      "title": "The ETH balance in the parent account is insufficient for network fees"
+    },
+    "PasswordsDontMatch": {
+      "title": "The Passwords don't match",
+      "description": "Kérlek, próbáld meg újra"
+    },
+    "PasswordIncorrect": {
+      "title": "The password entered is incorrect",
+      "description": "Kérlek, próbáld meg újra"
+    },
+    "RPCHostRequired": {
+      "title": "Host is required."
+    },
+    "RPCHostInvalid": {
+      "title": "Enter valid host."
+    },
+    "RPCUserRequired": {
+      "title": "RPC Username is required"
+    },
+    "RPCPassRequired": {
+      "title": "RPC Password is required"
+    },
+    "SatStackAccessDown": {
+      "title": "Could not reach full node",
+      "description": "Please verify that SatStack and your node are running. Check the full node setup in the Settings if the problem persists."
+    },
+    "SatStackStillSyncing": {
+      "title": "Node sync in progress...",
+      "description": "Please wait while your node is syncing. Sending is not possible since your Bitcoin account balances may be incorrect."
+    },
+    "SatStackVersionTooOld": {
+      "title": "Please upgrade SatStack",
+      "description": "The SatStack version you are using is too old and may contain bugs or incompatibilities."
+    },
+    "SatStackDescriptorNotImported": {
+      "title": "Account not scanned by full node",
+      "description": "Please configure your full node to scan for the accounts associated with this device. Your full node must first scan the blockchain for this account before you can add it to your portfolio."
+    },
+    "SwapGenericAPIError": {
+      "title": "Exchange rate expired",
+      "description": "You must confirm the swap before the timer runs out. The exchange rate displayed remains valid for 60 seconds."
+    },
+    "TimeoutError": {
+      "title": "Oops, a timeout occurred",
+      "description": "It took too long for the server to respond. Please try again"
+    },
+    "TimeoutTagged": {
+      "title": "Oops, a timeout occurred ({{tag}})",
+      "description": "Túl sokáig tartott a szerver válasza"
+    },
+    "TransportError": {
+      "title": "Something went wrong. Please reconnect your device",
+      "description": "{{message}}"
+    },
+    "TransportRaceCondition": {
+      "title": "Something went wrong. Please reconnect your device",
+      "description": "{{message}}"
+    },
+    "TransportStatusError": {
+      "title": "Something went wrong. Please reconnect your device",
+      "description": "{{message}}"
+    },
+    "DeviceShouldStayInApp": {
+      "title": "Kérlek, nyisd meg a(z) {{appName}} alkalmazást",
+      "description": "Keep the {{appName}} app open while we find your accounts"
+    },
+    "UnexpectedBootloader": {
+      "title": "Hoppá, az eszközödnek nem szabad Bootloader módban lennie",
+      "description": "Please restart your device or contact Ledger Support"
+    },
+    "UserRefusedAllowManager": {
+      "title": "Az eszközkezelő meg lett tagadva az eszközön"
+    },
+    "UserRefusedFirmwareUpdate": {
+      "title": "Update cancelled",
+      "description": "Kérlek, próbáld meg újra, vagy vedd fel a kapcsolatot a Ledger ügyfélszolgálatával"
+    },
+    "UserRefusedOnDevice": {
+      "title": "Action rejected",
+      "description": "User rejected the operation on the device"
+    },
+    "TransactionRefusedOnDevice": {
+      "title": "A művelet megtagadva az eszközön",
+      "description": "Please retry or contact Ledger Support if in doubt"
+    },
+    "UserRefusedAddress": {
+      "title": "A fogadó cím elutasítva",
+      "description": "Please try again or contact Ledger Support if in doubt"
+    },
+    "UpdateYourApp": {
+      "title": "Az alkalmazás frissítése szükséges",
+      "description": "Távolítsd el és telepítsd újra a(z) {{managerAppName}} alkalmazást az eszközkezelőben"
+    },
+    "DeviceOnDashboardExpected": {
+      "title": "Return to the Dashboard",
+      "description": "Please navigate back to the Dashboard on your device"
+    },
+    "WebsocketConnectionError": {
+      "title": "Sajnáljuk, próbáld meg újra (kapcsolati hiba)",
+      "description": null
+    },
+    "WebsocketConnectionFailed": {
+      "title": "Sajnáljuk, próbáld meg újra (kapcsolat bezárva)",
+      "description": null
+    },
+    "WrongDeviceForAccount": {
+      "title": "Valami hiba történt",
+      "description": "Please check that your hardware wallet is set up with the recovery phrase or passphrase associated to the selected account."
+    },
+    "DeviceAppVerifyNotSupported": {
+      "title": "Az alkalmazás frissítése szükséges",
+      "description": "Töröld és telepítsd újra a(z) {{managerAppName}} alkalmazást az eszközkezelőben"
+    },
+    "InvalidAddress": {
+      "title": "Ez nem egy valós {{currencyName}} cím"
+    },
+    "InvalidAddressBecauseDestinationIsAlsoSource": {
+      "title": "A fogadó cím megegyezik a küldő címmel"
+    },
+    "CantOpenDevice": {
+      "title": "Oops, couldn't connect to device",
+      "description": "Device detected but connection failed. Please try again or contact Ledger Support if the problem persists."
+    },
+    "ETHAddressNonEIP": {
+      "title": "Az automatikus ellenőrzés nem elérhető: gondosan ellenőrizd a címet",
+      "description": null
+    },
+    "CantScanQRCode": {
+      "title": "Nem sikerült beolvasni ezt a QR-kódot: az automatikus hitelesítés nem támogatott ennél a címnél"
+    },
+    "FeeNotLoaded": {
+      "title": "Couldn't load fee rates. Please set manual fees"
+    },
+    "FeeRequired": {
+      "title": "Díjak szükségesek"
+    },
+    "GasLessThanEstimate": {
+      "title": "This may be too low. Please increase"
+    },
+    "UnknownMCU": {
+      "title": "Ismeretlen MCU verzió",
+      "description": "Kérlek, lépj kapcsolatba a Ledger ügyféltámogatással"
+    },
+    "MCUNotGenuineToDashboard": {
+      "title": "Lépj a főoldalra a frissítéshez",
+      "description": "",
+      "list": {
+        "1": "Disconnect and reconnect the USB cable without pressing any buttons.",
+        "2": "Press both buttons together three times to display the Dashboard.",
+        "3": "Nyisd meg az eszközkezelőt és kattints a szoftver frissítésére."
+      }
+    },
+    "UnavailableTezosOriginatedAccountReceive": {
+      "title": "Cannot receive in subaccounts",
+      "description": "Ha pénzt szeretnél fogadni, kérlek, használd a főszámlát"
+    },
+    "UnavailableTezosOriginatedAccountSend": {
+      "title": "Az alszámlákról még nem lehet küldeni",
+      "description": "Ez a funkció később lesz hozzáadva a Babylon frissítés által nemrégiben bevezetett változtatások miatt."
+    },
+    "RecommendUndelegation": {
+      "title": "Please undelegate the account before emptying it"
+    },
+    "RecommendSubAccountsToEmpty": {
+      "title": "Kérlek, először üríts ki minden alszámlát"
+    },
+    "NotSupportedLegacyAddress": {
+      "title": "Ez a régi címformátum már nem támogatott"
+    },
+    "BtcUnmatchedApp": {
+      "title": "Ez a rossz alkalmazás",
+      "description": "Open the '{{managerAppName}}' app on your device"
+    },
+    "DeviceNameInvalid": {
+      "title": "Kérlek, válaszd ki az eszköz nevét '{{invalidCharacters}}' karakterek nélkül"
+    },
+    "LedgerAPIErrorWithMessage": {
+      "title": "{{message}}",
+      "description": "Kérlek, próbáld meg újra, vagy vedd fel a kapcsolatot a Ledger ügyfélszolgálatával."
+    },
+    "ManagerAppRelyOnBTC": {
+      "title": "Bitcoin és Ethereum alkalmazások szükségesek",
+      "description": "Először telepítsd a legfrissebb Bitcoin és Ethereum alkalmazásokat."
+    },
+    "UserRefusedDeviceNameChange": {
+      "title": "Rename cancelled on device",
+      "description": "Próbáld meg újra, és fogadd el az átnevezést az eszközödön"
+    },
+    "SyncError": {
+      "title": "Szinkronizálási hiba",
+      "description": "Some accounts could not be synchronized."
+    },
+    "TronNoFrozenForBandwidth": {
+      "title": "Nincsenek kiolvasztható eszközök",
+      "description": "Nincsenek a Sávszélességhez kapcsolódó kiolvasztható eszközök"
+    },
+    "TronNoFrozenForEnergy": {
+      "title": "Nincsenek kiolvasztható eszközök",
+      "description": "Nincsenek az Energiához kapcsolódó kiolvasztható eszközök"
+    },
+    "TronUnfreezeNotExpired": {
+      "title": "Kiolvasztás még nem lehetséges",
+      "description": "Várnod kell 3 napot az utolsó Befagyasztás művelet után"
+    },
+    "TronVoteRequired": {
+      "title": "Legalább 1 szavazat szükséges"
+    },
+    "TronInvalidVoteCount": {
+      "title": "A szavazási formátum helytelen",
+      "description": "Csak kerek számokat megadva szavazhatsz"
+    },
+    "TronRewardNotAvailable": {
+      "title": "A jutalom még nem begyűjthető",
+      "description": "24 órát kell várnod a begyűjtések között"
+    },
+    "TronNoReward": {
+      "title": "Nincs begyűjthető jutalom"
+    },
+    "TronInvalidFreezeAmount": {
+      "title": "A befagyasztandó mennyiség nem lehet kevesebb, mint 1"
+    },
+    "TronSendTrc20ToNewAccountForbidden": {
+      "title": "TRC20 küldése egy új számlára nem aktiválja azt",
+      "description": "A fogadó számlát aktiválni kell TRC20 küldése előtt. Küldj TRX-et vagy TRC10-et a számla aktiváláshoz."
+    },
+    "TronUnexpectedFees": {
+      "title": "További díjak merülhetnek fel"
+    },
+    "TronNotEnoughTronPower": {
+      "title": "Nincs elég elérhető szavazat"
+    },
+    "TronTransactionExpired": {
+      "title": "Az tranzakció lejárt",
+      "description": "Az aláírást 30 másodpercen belül kell alkalmazni. Kérlek próbáld újra."
+    },
+    "TronNotEnoughEnergy": {
+      "title": "Nincs elég Energia ennek a tokennek az elküldéséhez"
+    },
+    "PairingFailed": {
+      "title": "Párosítás sikertelen",
+      "description": "Please try again or contact Ledger Support if in doubt."
+    },
+    "GenuineCheckFailed": {
+      "title": "Eredetiség ellenőrzése sikertelen",
+      "description": "Something went wrong. Please try again or contact Ledger Support if in doubt."
+    },
+    "EthAppPleaseEnableContractData": {
+      "title": "Kérlek, engedélyezd a szerződéses adatokat az Ethereum alkalmazás beállításaiban"
+    },
+    "InvalidXRPTag": {
+      "title": "Érvénytelen XRP célcímke"
+    },
+    "NotEnoughBalanceToDelegate": {
+      "title": "Nincs elegendő egyenleg a delegáláshoz"
+    },
+    "NotEnoughDelegationBalance": {
+      "title": "Insufficient balance to delegate"
+    },
+    "NotEnoughBalanceInParentAccount": {
+      "title": "Insufficient balance in the parent account"
+    },
+    "NotEnoughSpendableBalance": {
+      "title": "Balance cannot be below {{minimumAmount}}"
+    },
+    "WrongAppForCurrency": {
+      "title": "Kérlek, nyisd meg a(z) {{expected}} alkalmazást"
+    },
+    "FeeTooHigh": {
+      "title": "Network fees are above 10% of the amount"
+    },
+    "StellarWrongMemoFormat": {
+      "title": "Memo format is wrong"
+    },
+    "SourceHasMultiSign": {
+      "title": "Please disable multisign to send {{currencyName}}"
+    },
+    "StellarMemoRecommended": {
+      "title": "A memo may be required when sending to this recipient"
+    },
+    "SwapExchangeRateAmountTooLow": {
+      "title": "Amount must be at least {{unit}} {{minAmountFrom}}"
+    },
+    "SwapExchangeRateAmountTooHigh": {
+      "title": "Amount must be less than {{unit}} {{maxAmountFrom}}"
+    }
+  }
+}
